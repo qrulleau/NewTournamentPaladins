@@ -10,7 +10,7 @@
 						<router-link to="/">Home</router-link>
 						<router-link to="/calendar">Calendrier</router-link>
 						<router-link to="/resultat">Résultat</router-link>
-						<router-link to="/team">Equipes</router-link>
+						<router-link to="/equipes">Equipes</router-link>
 						<router-link to="/contact">Contact</router-link>
 					</div>
 				</nav>
