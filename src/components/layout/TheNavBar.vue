@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="d-flex">
 				<div>
-					<h1 class="white">logo<span>Tournois</span></h1>
+					<h1 class="white">Paladins <span>French Tournament</span></h1>
 				</div>
 				<nav>
 					<div class="d-flex">
 						<router-link to="/">Home</router-link>
-						<router-link to="/calendar">Calendrier</router-link>
+						<router-link to="/calendrier">Calendrier</router-link>
 						<router-link to="/resultat">Résultat</router-link>
 						<router-link to="/equipes">Equipes</router-link>
 						<router-link to="/contact">Contact</router-link>

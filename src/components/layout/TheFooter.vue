@@ -1,10 +1,10 @@
 <template>
 	<footer>
-		<div class="background-black white">
+		<div class="background-black">
 			<div class="container">
 				<div class="d-flex item-align-center">
 					<div>
-						<h1>Logo<span>Tournois</span></h1>
+						<h1>Paladins<span>French Tournament</span></h1>
 					</div>
 					<div class="d-flex">
 						<div class="row">
@@ -25,7 +25,7 @@
 							<router-link to="">Politique de cookie</router-link>
 							<router-link to="">Gestion des cookies</router-link>
 						</div>
-						<div class="row">
+						<div class="row special-width">
 							<h4>à propos</h4>
 							<p>
 								Le NomTournois est basé en France, crée par des joueurs pour des joueurs, à l’écoute de la communauté Afin de faire perduré Paladins !
@@ -47,7 +47,24 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.row a {
-	display: block;
+.row {
+	a {
+		display: block;
+	}
+}
+.special-width {
+	width: 19%;
+}
+h4 {
+	margin-bottom: 36px;
+}
+a {
+	margin-bottom: 12px;
+}
+.copyright {
+	margin-top: 80px;
+}
+.background-black {
+	padding: 80px 40px;
 }
 </style>
