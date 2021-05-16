@@ -26,7 +26,7 @@ const routes = [
 		component: Team,
 	},
 	{
-		path: '/contact-page',
+		path: '/contact',
 		component: ContactPage,
 	},
 	// {
