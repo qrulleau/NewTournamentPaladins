@@ -1,26 +1,30 @@
 <template>
-	<div class="width">
-		<div class="d-flex background-blue">
-			<div class="Tea">
-				<img src="../../assets/LogoTeam/navi.png" alt="" />
-				<h5>NAVI</h5>
-			</div>
-			<div>
-				<h2>Amsterdam game center</h2>
-				<p class="red">20 mars, 2020 14:30</p>
-				<h3>VS</h3>
-				<h4 class="orange">View Match</h4>
-				<div class="d-flex">
-					<button><i class="fab fa-youtube"></i></button>
-					<button></button>
-				</div>
-			</div>
-			<div>
-				<img src="../../assets/LogoTeam/fnatic.png" alt="" />
-				<h5>FNATIC</h5>
-			</div>
-		</div>
-	</div>
+  <div class="width">
+    <div class="d-flex background-blue item-align-center">
+      <div class="Team">
+        <img src="../../assets/LogoTeam/navi.png" alt="" />
+        <h5>NAVI</h5>
+      </div>
+      <div class="description">
+        <h2>Amsterdam game center</h2>
+        <p class="red">20 mars, 2020 14:30</p>
+        <h3>VS</h3>
+        <h4 class="orange">View Match</h4>
+        <div class="d-flex">
+          <a href="https://www.twitch.tv/pettiote" target="_blank">
+            <i class="fab fa-twitch red"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fab fa-youtube red"></i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <img src="../../assets/LogoTeam/fnatic.png" alt="" />
+        <h5>FNATIC</h5>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -32,13 +36,48 @@ h2,
 h3,
 h4,
 p {
-	text-transform: uppercase;
+  text-transform: uppercase;
+}
+h2,
+p {
+  font-size: 16px;
+}
+p {
+  margin: 16px 0 48px 0;
+  font-weight: bold;
+}
+h4 {
+  font-size: 18px;
+  margin: 24px 0 16px 0;
+}
+h5 {
+  font-weight: bold;
+  margin-top: 36px;
+}
+h3 {
+  font-size: 36px;
 }
 .background-blue {
-	background: rgba(8, 11, 21, 0.73);
+  background: rgba(8, 11, 21, 0.73);
+  padding: 28px 132px;
 }
 .width {
-	width: 1346px;
-	margin: 20px auto;
+  width: 1346px;
+  margin: 20px auto;
+}
+.fab {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  :hover {
+    transition: 300ms;
+    background-color: red;
+  }
+}
+i:hover {
+  background: linear-gradient(180deg, #c5400f 0%, #b91911 100%);
+  transition: 350ms;
+  color: white;
 }
 </style>
