@@ -5,6 +5,7 @@ import Calendar from '../views/Calendar/CalendarPage.vue';
 import Result from '../views/Result/ResultPage.vue';
 import Team from '../views/Team/TeamPage.vue';
 import ContactPage from '../views/Contact/ContactPage.vue';
+import MatchDetail from '../views/MatchDetail/MatchDetail.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -28,6 +29,10 @@ const routes = [
 	{
 		path: '/contact',
 		component: ContactPage,
+	},
+	{
+		path: '/match-detail',
+		component: MatchDetail,
 	},
 	// {
 	// 	path: '/:catchAll(.*)',
