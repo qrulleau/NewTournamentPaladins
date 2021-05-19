@@ -34,8 +34,8 @@
 					</div>
 				</div>
 				<div class="d-flex copyright">
-					<p>Copyright 2021 NomTournois. Tous droits réservés</p>
-					<p>Design & developed by quentin Rulleau</p>
+					<p>Copyright 2021 Paladins French Tournament. Tous droits réservés</p>
+					<p>Design & developed by Quentin Rulleau</p>
 				</div>
 			</div>
 		</div>

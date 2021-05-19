@@ -17,10 +17,27 @@
 						NekrosComing#2334) .
 					</p>
 					<div class="background-black-opacity box">
-						<p>hello@warzon.com</p>
-						<p>33 avenue de mon cul, France</p>
+						<div class="d-flex item-align-center flex-start">
+							<i class="fas fa-envelope"></i>
+							<p>PaladinsFrenchTournament@gmail.com</p>
+						</div>
+						<div class="d-flex item-align-center flex-start">
+							<i class="fas fa-map-pin"></i>
+							<p>33 avenue de mon cul, France</p>
+						</div>
 					</div>
 					<h4>Follow</h4>
+					<div class="flex social-network">
+						<a href="" target="_blank">
+							<i class="fab fa-twitch"></i>
+						</a>
+						<a href="" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+						<a href="" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
 				</div>
 				<div class="form">
 					<div class="input">
@@ -122,5 +139,29 @@ h2 {
 	margin: 12px 0;
 	font-size: 24px;
 	font-weight: bold;
+}
+.fab {
+	padding: 10px;
+	border-radius: 21px;
+	border: 1px solid white;
+	font-size: 20px;
+	margin-right: 21px;
+	margin-top: 12px;
+}
+.fas {
+	font-size: 23px;
+	margin-right: 20px;
+}
+.flex-start:last-child {
+	margin-top: 20px;
+}
+.fa-map-pin {
+	margin-left: 5px;
+	margin-right: 25px;
+}
+.social-network i:hover {
+	background: white;
+	transition: 350ms;
+	color: #b91911;
 }
 </style>
