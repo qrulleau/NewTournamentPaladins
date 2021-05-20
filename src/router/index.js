@@ -6,6 +6,7 @@ import Result from '../views/Result/ResultPage.vue';
 import Team from '../views/Team/TeamPage.vue';
 import ContactPage from '../views/Contact/ContactPage.vue';
 import MatchDetail from '../views/MatchDetail/MatchDetail.vue';
+import MatchDetailDone from '../views/MatchDetail/MatchDetailDone.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -33,6 +34,10 @@ const routes = [
 	{
 		path: '/match-detail',
 		component: MatchDetail,
+	},
+	{
+		path: '/match-detail-done',
+		component: MatchDetailDone,
 	},
 	// {
 	// 	path: '/:catchAll(.*)',
