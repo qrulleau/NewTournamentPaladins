@@ -171,6 +171,9 @@ export default {
 .orange {
 	color: #c5400f;
 }
+.grey {
+	color: #afafbc;
+}
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
@@ -212,6 +215,12 @@ a {
 }
 .text-center {
 	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
 }
 .background-image {
 	background-image: url(../../src/assets/background/HomePage.jpg);

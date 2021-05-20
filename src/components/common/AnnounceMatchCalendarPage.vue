@@ -28,7 +28,7 @@
 		</div>
 		<div>
 			<a href="#">
-				<router-link to="/match-detail">
+				<router-link to="/match-detail-done">
 					<i class="fas fa-arrow-right"></i>
 				</router-link>
 			</a>
@@ -74,6 +74,10 @@ h5 {
 	padding: 5px 10px;
 	color: #b91911;
 	border-radius: 9px;
+}
+.fa-arrow-right:hover {
+	color: #c5400f;
+	transition: 300ms;
 }
 .match-detail p {
 	font-weight: bold;
