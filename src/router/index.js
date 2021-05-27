@@ -7,6 +7,7 @@ import Team from '../views/Team/TeamPage.vue';
 import ContactPage from '../views/Contact/ContactPage.vue';
 import MatchDetail from '../views/MatchDetail/MatchDetail.vue';
 import MatchDetailDone from '../views/MatchDetail/MatchDetailDone.vue';
+import LegaleNotice from '../views/LegaleNotice/LegaleNotice.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -38,6 +39,10 @@ const routes = [
 	{
 		path: '/match-detail-done',
 		component: MatchDetailDone,
+	},
+	{
+		path: '/mention-legales',
+		component: LegaleNotice,
 	},
 	// {
 	// 	path: '/:catchAll(.*)',
