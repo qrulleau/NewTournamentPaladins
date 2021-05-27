@@ -9,6 +9,7 @@ import MatchDetail from '../views/MatchDetail/MatchDetail.vue';
 import MatchDetailDone from '../views/MatchDetail/MatchDetailDone.vue';
 import LegaleNotice from '../views/LegaleNotice/LegaleNotice.vue';
 import ConfidentialityPolicy from '../views/ConfidentialityPolicy/ConfidentialityPolicy.vue';
+import CookiePolicy from '../views/CookiePolicy/CookiePolicy.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -49,6 +50,11 @@ const routes = [
 		path: '/politique-confidentialite',
 		component: ConfidentialityPolicy,
 	},
+	{
+		path: '/politique-cookie',
+		component: CookiePolicy,
+	},
+
 	// {
 	// 	path: '/:catchAll(.*)',
 	// 	component: AppError,
