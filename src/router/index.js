@@ -8,6 +8,7 @@ import ContactPage from '../views/Contact/ContactPage.vue';
 import MatchDetail from '../views/MatchDetail/MatchDetail.vue';
 import MatchDetailDone from '../views/MatchDetail/MatchDetailDone.vue';
 import LegaleNotice from '../views/LegaleNotice/LegaleNotice.vue';
+import ConfidentialityPolicy from '../views/ConfidentialityPolicy/ConfidentialityPolicy.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -43,6 +44,10 @@ const routes = [
 	{
 		path: '/mention-legales',
 		component: LegaleNotice,
+	},
+	{
+		path: '/politique-confidentialite',
+		component: ConfidentialityPolicy,
 	},
 	// {
 	// 	path: '/:catchAll(.*)',
