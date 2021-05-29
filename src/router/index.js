@@ -10,6 +10,7 @@ import MatchDetailDone from '../views/MatchDetail/MatchDetailDone.vue';
 import LegaleNotice from '../views/LegaleNotice/LegaleNotice.vue';
 import ConfidentialityPolicy from '../views/ConfidentialityPolicy/ConfidentialityPolicy.vue';
 import CookiePolicy from '../views/CookiePolicy/CookiePolicy.vue';
+import NewTournament from '../views/Article/NewTournament.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -54,6 +55,10 @@ const routes = [
 		path: '/politique-cookie',
 		component: CookiePolicy,
 	},
+	{
+		path: '/nouveau-tournoi',
+		component: NewTournament,
+	},
 
 	// {
 	// 	path: '/:catchAll(.*)',
@@ -64,6 +69,9 @@ const routes = [
 const router = createRouter({
 	history: createWebHistory(),
 	routes,
+	scrollBehavior(to, from, savedPosition) {
+		return { x: 0, y: 0 };
+	},
 });
 
 export default router;
