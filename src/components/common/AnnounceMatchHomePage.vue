@@ -9,9 +9,9 @@
 				<h2>Amsterdam game center</h2>
 				<p class="red">20 mars, 2020 14:30</p>
 				<h3>VS</h3>
-				<h4 class="orange">View Match</h4>
+				<h4 class="orange">Regarder le match</h4>
 				<div class="d-flex">
-					<a href="https://www.twitch.tv/pettiote" target="_blank">
+					<a href="https://www.twitch.tv/paladinsfrenchtournament" target="_blank">
 						<i class="fab fa-twitch red"></i>
 					</a>
 					<a href="" target="_blank">

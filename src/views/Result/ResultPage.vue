@@ -3,11 +3,19 @@
 		<div class="container">
 			<HeaderNav class="pt-100" />
 		</div>
-		<select name="" id=""></select>
-		<ResultCard />
-		<ResultCard />
-		<ResultCard />
-		<ResultCard />
+		<div class="text-center">
+			<h2 class="title">Classement</h2>
+			<select name="choix du tournois" v-model="TournamentChoice" id="">
+				<option value="" disabled>Liste des tournois disponibles</option>
+				<option value="ChampionsLeague">Champions League of Paladins</option>
+			</select>
+		</div>
+		<section v-show="TournamentChoice === 'ChampionsLeague'">
+			<ResultCard />
+			<ResultCard />
+			<ResultCard />
+			<ResultCard />
+		</section>
 	</div>
 	<FooterNav />
 </template>
@@ -23,6 +31,11 @@ export default {
 		FooterNav,
 		ResultCard,
 	},
+	data() {
+		return {
+			TournamentChoice: '',
+		};
+	},
 };
 </script>
 
@@ -32,5 +45,11 @@ export default {
 	background-repeat: no-repeat;
 	background-color: #080b15;
 	padding-bottom: 35px;
+}
+h2.title {
+	margin-bottom: 48px;
+}
+select {
+	margin-bottom: 140px;
 }
 </style>

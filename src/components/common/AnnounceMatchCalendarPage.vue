@@ -21,14 +21,14 @@
 			<span class="line"></span>
 			<div>
 				<h5>Voir le match en live</h5>
-				<a href="">
+				<a href="https://www.twitch.tv/paladinsfrenchtournament">
 					<i class="fab fa-twitch"></i>
 				</a>
 			</div>
 		</div>
 		<div>
 			<a href="#">
-				<router-link to="/match-detail-done">
+				<router-link to="/match-detail">
 					<i class="fas fa-arrow-right"></i>
 				</router-link>
 			</a>

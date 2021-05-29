@@ -2,7 +2,7 @@
 	<div class="background-image">
 		<div class="container">
 			<HeaderNav class="pt-100" />
-			<h2 class="text-center">Detail du match</h2>
+			<h2 class="text-center title">Detail du match</h2>
 			<div class="container-body">
 				<div class="background-description-mat">
 					<div class="d-flex justify">
@@ -42,56 +42,121 @@
 				<section id="team">
 					<h3 class="underline-red">Team</h3>
 					<div class="d-flex selection-currently flex-start">
-						<h3 class="active">FNATIC</h3>
-						<h3>NAVI</h3>
+						<a
+							:class="isActive ? 'active' : ''"
+							@click="
+								toggle();
+								CurrentTeam = 'FirstTeam';
+							"
+							>FNATIC</a
+						>
+						<a
+							:class="!isActive ? 'active' : ''"
+							@click="
+								toggle();
+								CurrentTeam = 'SecondTeam';
+							"
+							>NAVI</a
+						>
 					</div>
-					<div class="d-flex">
-						<div class="player-profil">
-							<div class="position-relative">
-								<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
-								<div class="position-absolute">
-									<h4>Pettiote</h4>
-									<p class="red">Healeuse</p>
+					<section v-if="CurrentTeam === 'FirstTeam'">
+						<div class="d-flex">
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Pettiote</h4>
+										<p class="red">Healeuse</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/dinopierre.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Dinopierre</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/lystale.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Lystale</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/kitara.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Kitara</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/moutonPower.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mouton Power</h4>
+										<p class="red">Tank</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="player-profil">
-							<div class="position-relative">
-								<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
-								<div class="position-absolute">
-									<h4>Pettiote</h4>
-									<p class="red">Healeuse</p>
+					</section>
+					<section v-if="CurrentTeam === 'SecondTeam'">
+						<div class="d-flex">
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/kurt.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Kurt</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/kurofs.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>KuroFS</h4>
+										<p class="red">Healeur</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/ottoo.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Ottooo</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/maurice.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Maurice</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../assets/ProfilPlayer/mowgli.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mowgli</h4>
+										<p class="red">DPS</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="player-profil">
-							<div class="position-relative">
-								<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
-								<div class="position-absolute">
-									<h4>Pettiote</h4>
-									<p class="red">Healeuse</p>
-								</div>
-							</div>
-						</div>
-						<div class="player-profil">
-							<div class="position-relative">
-								<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
-								<div class="position-absolute">
-									<h4>Pettiote</h4>
-									<p class="red">Healeuse</p>
-								</div>
-							</div>
-						</div>
-						<div class="player-profil">
-							<div class="position-relative">
-								<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
-								<div class="position-absolute">
-									<h4>Pettiote</h4>
-									<p class="red">Healeuse</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					</section>
 				</section>
 				<section id="map">
 					<h3 class="underline-red">Map</h3>
@@ -138,6 +203,18 @@ export default {
 	components: {
 		HeaderNav,
 		FooterNav,
+	},
+	data() {
+		return {
+			CurrentTeam: 'FirstTeam',
+			isActive: true,
+		};
+	},
+	methods: {
+		toggle() {
+			this.isActive = !this.isActive;
+			console.log(this.CurrentTeam);
+		},
 	},
 };
 </script>
@@ -218,7 +295,7 @@ h4 {
 }
 .selection-currently {
 	margin: 36px 0 28px 0;
-	h3 {
+	a {
 		color: #aba7a7;
 		font-size: 16px;
 		font-weight: 900;
@@ -226,10 +303,10 @@ h4 {
 		margin-right: 30px;
 	}
 }
-h3:last-child {
+a:last-child {
 	margin-right: 0;
 }
-h3.active {
+a.active {
 	color: white;
 }
 .container-body {

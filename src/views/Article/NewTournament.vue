@@ -45,13 +45,13 @@
 				</p>
 				<p>Chaque match diffusé sur twitch sera casté ainsi vous pourrez assister dans les meilleurs conditions à ces matchs compétitifs</p>
 				<div class="flex social-network">
-					<a href="" target="_blank">
+					<a href="https://www.twitch.tv/paladinsfrenchtournament" target="_blank">
 						<i class="fab fa-twitch"></i>
 					</a>
-					<a href="" target="_blank">
+					<a href="https://www.youtube.com/channel/UCvp93_l5E8GValdzstpcXeA" target="_blank">
 						<i class="fab fa-youtube"></i>
 					</a>
-					<a href="" target="_blank">
+					<a href="https://twitter.com/PFTofficiel" target="_blank">
 						<i class="fab fa-twitter"></i>
 					</a>
 					<a href="https://discord.gg/YgTqBrhQUW" target="_blank">

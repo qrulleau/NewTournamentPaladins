@@ -3,7 +3,7 @@
 		<div class="container">
 			<HeaderNav class="pt-100" />
 		</div>
-		<h2 class="text-center">Contact</h2>
+		<h2 class="text-center title">Contact</h2>
 		<div class="container-body">
 			<div class="d-flex baseline">
 				<div class="width">
@@ -28,35 +28,37 @@
 					</div>
 					<h4>Follow</h4>
 					<div class="flex social-network">
-						<a href="" target="_blank">
+						<a href="https://www.twitch.tv/paladinsfrenchtournament" target="_blank">
 							<i class="fab fa-twitch"></i>
 						</a>
-						<a href="" target="_blank">
+						<a href="https://www.youtube.com/channel/UCvp93_l5E8GValdzstpcXeA" target="_blank">
 							<i class="fab fa-youtube"></i>
 						</a>
-						<a href="" target="_blank">
+						<a href="https://twitter.com/PFTofficiel" target="_blank">
 							<i class="fab fa-twitter"></i>
 						</a>
 					</div>
 				</div>
 				<div class="form">
-					<div class="input">
-						<label for="name">Pseudonyme</label>
-						<input type="text" id="name" name="name" class="background-black-opacity" required />
-					</div>
-					<div class="input">
-						<label for="name">Email</label>
-						<input type="text" id="name" name="name" class="background-black-opacity" required />
-					</div>
-					<div class="input">
-						<label for="">Sujet du message</label>
-						<input type="text" id="name" name="name" class="background-black-opacity" required minlength="15" />
-					</div>
-					<div class="input">
-						<label for="">Message</label>
-						<input type="message" id="message" name="" class="background-black-opacity" required />
-					</div>
-					<input class="background-main" type="button" value="Envoyer" />
+					<form action="https://formspree.io/f/xbjqoyye" method="post">
+						<div class="input">
+							<label for="pseudonyme">Pseudonyme</label>
+							<input type="text" id="pseudonyme" name="pseudonyme" class="background-black-opacity" required />
+						</div>
+						<div class="input">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" class="background-black-opacity" required />
+						</div>
+						<div class="input">
+							<label for="subject">Sujet du message</label>
+							<input type="text" id="subject" name="subject" class="background-black-opacity" required minlength="15" />
+						</div>
+						<div class="input">
+							<label for="message">Message</label>
+							<input type="message" id="message" name="message" class="background-black-opacity" required />
+						</div>
+						<input class="background-main" type="submit" value="Envoyer" />
+					</form>
 				</div>
 			</div>
 		</div>
@@ -110,13 +112,17 @@ export default {
 	border-top: 1px solid #b91911;
 	width: 504px;
 	height: 35px;
+	padding-left: 12px;
 }
-.form input[type='button'] {
+.form input[type='submit'] {
 	width: 180px;
 	height: 50px;
+	border: none;
+	cursor: pointer;
 }
 .form input[type='message'] {
-	height: 112px;
+	padding-bottom: 108px;
+	padding-top: 20px;
 }
 .container-body {
 	width: 1112px;

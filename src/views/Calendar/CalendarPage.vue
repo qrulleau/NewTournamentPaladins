@@ -2,16 +2,39 @@
 	<div class="background-image">
 		<div class="container">
 			<HeaderNav class="pt-100" />
-			<h2 class="text-center">calendrier</h2>
+			<h2 class="text-center title">Calendrier</h2>
 			<div class="d-flex selection-currently flex-start">
-				<h3 class="active">MATCH à VENIR</h3>
-				<h3>DERNIER RÉSULTATS</h3>
+				<a
+					:class="isActive ? 'active' : ''"
+					@click="
+						toggle();
+						[(CurrentMatch = 'ComingMatch')];
+					"
+					>MATCH à VENIR</a
+				>
+				<a
+					:class="!isActive ? 'active' : ''"
+					@click="
+						[(CurrentMatch = 'LastResult')];
+						toggle();
+					"
+					>DERNIER RÉSULTATS</a
+				>
 			</div>
-			<AnnounceMatch />
-			<AnnounceMatch class="mt-20" />
-			<AnnounceMatch class="mt-20" />
-			<AnnounceMatch class="mt-20" />
-			<AnnounceMatch class="mt-20" />
+			<section v-if="CurrentMatch === 'ComingMatch'">
+				<AnnounceMatch />
+				<AnnounceMatch class="mt-20" />
+				<AnnounceMatch class="mt-20" />
+				<AnnounceMatch class="mt-20" />
+				<AnnounceMatch class="mt-20" />
+			</section>
+			<section v-if="CurrentMatch === 'LastResult'">
+				<AnnounceMatchDone />
+				<AnnounceMatchDone class="mt-20" />
+				<AnnounceMatchDone class="mt-20" />
+				<AnnounceMatchDone class="mt-20" />
+				<AnnounceMatchDone class="mt-20" />
+			</section>
 		</div>
 	</div>
 	<FooterNav />
@@ -21,11 +44,24 @@
 import HeaderNav from '../../components/layout/TheNavBar.vue';
 import FooterNav from '../../components/layout/TheFooter.vue';
 import AnnounceMatch from '../../components/common/AnnounceMatchCalendarPage.vue';
+import AnnounceMatchDone from '../../components/common/AnnounceMatchDoneCalendarPage.vue';
 export default {
 	components: {
 		HeaderNav,
 		FooterNav,
 		AnnounceMatch,
+		AnnounceMatchDone,
+	},
+	data() {
+		return {
+			CurrentMatch: 'ComingMatch',
+			isActive: true,
+		};
+	},
+	methods: {
+		toggle() {
+			this.isActive = !this.isActive;
+		},
 	},
 };
 </script>
@@ -42,7 +78,7 @@ export default {
 }
 .selection-currently {
 	margin: 120px 0 40px 0;
-	h3 {
+	a {
 		color: #aba7a7;
 		font-size: 16px;
 		font-weight: 900;
@@ -50,10 +86,10 @@ export default {
 		margin-right: 30px;
 	}
 }
-h3:last-child {
+a:last-child {
 	margin-right: 0;
 }
-h3.active {
+a.active {
 	color: white;
 }
 </style>

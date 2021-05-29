@@ -10,7 +10,7 @@
 						<div class="row">
 							<h4>Lien du site</h4>
 							<router-link @click="scrollToTop()" to="/">Home</router-link>
-							<router-link @click="scrollToTop()" to="">Reglement</router-link>
+							<router-link @click="scrollToTop()" to="#">Reglement</router-link>
 							<router-link @click="scrollToTop()" to="/contact">Contact</router-link>
 						</div>
 						<div class="row">
