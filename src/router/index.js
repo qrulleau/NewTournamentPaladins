@@ -11,6 +11,7 @@ import LegaleNotice from '../views/LegaleNotice/LegaleNotice.vue';
 import ConfidentialityPolicy from '../views/ConfidentialityPolicy/ConfidentialityPolicy.vue';
 import CookiePolicy from '../views/CookiePolicy/CookiePolicy.vue';
 import NewTournament from '../views/Article/NewTournament.vue';
+import Regulations from '../views/Regulations/Regulations.vue';
 //import AppError from '../views/AppError.vue';
 
 const routes = [
@@ -58,6 +59,10 @@ const routes = [
 	{
 		path: '/nouveau-tournoi',
 		component: NewTournament,
+	},
+	{
+		path: '/reglement',
+		component: Regulations,
 	},
 
 	// {
