@@ -188,7 +188,7 @@ export default {
 
 <style lang="scss" scoped>
 .background-description-mat {
-	background-image: url(../../src/assets/background/MatchDetailDescriptionPage.jpg);
+	background-image: url('https://i.ibb.co/VDXV2Cc/Match-Detail-Description-Page.jpg');
 	background-repeat: no-repeat;
 	margin-bottom: 40px;
 	padding: 34px 60px;
@@ -204,7 +204,7 @@ export default {
 }
 
 .background-image {
-	background-image: url(../../src/assets/background/MatchDetailPage.jpg);
+	background-image: url('https://i.ibb.co/8gsyjC4/Match-Detail-Page.png');
 	background-repeat: no-repeat;
 	background-color: #080b15;
 }
@@ -289,7 +289,11 @@ a.active {
 	right: 0;
 	left: 0;
 	top: 70%;
-	background: linear-gradient(270deg, rgba(23, 23, 33, 0) -3.11%, #171721 95.17%);
+	background: linear-gradient(
+		270deg,
+		rgba(23, 23, 33, 0) -3.11%,
+		#171721 95.17%
+	);
 	padding: 28px 0 12px 8px;
 	h4 {
 		margin: 0 0 4px 0;

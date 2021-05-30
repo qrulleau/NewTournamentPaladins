@@ -64,9 +64,10 @@ export default {
 
 <style lang="scss" scoped>
 .background-image {
-	background-image: url(../../src/assets/background/TeamPage2nd.jpg);
+	background-image: url('https://i.ibb.co/H738mmW/Team-Page2nd.jpg');
 	background-repeat: no-repeat;
 	background-color: #080b15;
+	padding-bottom: 58px;
 }
 
 .container-body {

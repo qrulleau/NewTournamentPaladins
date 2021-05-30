@@ -41,10 +41,10 @@ export default {
 
 <style lang="scss" scoped>
 .background-image {
-	background-image: url(../../src/assets/background/ResultPage.jpg);
+	background-image: url('https://i.ibb.co/wrrgJw9/Result-Page.jpg');
 	background-repeat: no-repeat;
 	background-color: #080b15;
-	padding-bottom: 35px;
+	padding-bottom: 93px;
 }
 h2.title {
 	margin-bottom: 48px;

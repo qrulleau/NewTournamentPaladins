@@ -151,6 +151,9 @@ export default {
 	height: 50px;
 	border: none;
 	cursor: pointer;
+	padding-left: 0;
+	font-weight: bold;
+	font-size: 18px;
 }
 .form input[type='message'] {
 	padding-bottom: 108px;

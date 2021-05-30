@@ -68,7 +68,7 @@ export default {
 
 <style lang="scss" scoped>
 .background-image {
-	background-image: url(../../src/assets/background/MatchDetailPage.jpg);
+	background-image: url('https://i.ibb.co/8gsyjC4/Match-Detail-Page.png');
 	background-repeat: no-repeat;
 	background-color: #080b15;
 	padding-bottom: 44px;
