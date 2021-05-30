@@ -11,10 +11,16 @@
 				<h3>VS</h3>
 				<h4 class="orange">Regarder le match</h4>
 				<div class="d-flex">
-					<a href="https://www.twitch.tv/paladinsfrenchtournament" target="_blank">
+					<a
+						href="https://www.twitch.tv/paladinsfrenchtournament"
+						target="_blank"
+					>
 						<i class="fab fa-twitch red"></i>
 					</a>
-					<a href="" target="_blank">
+					<a
+						href="https://www.youtube.com/channel/UCvp93_l5E8GValdzstpcXeA"
+						target="_blank"
+					>
 						<i class="fab fa-youtube red"></i>
 					</a>
 				</div>
