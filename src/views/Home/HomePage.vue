@@ -14,7 +14,7 @@
 								</h3>
 								<p class="description">
 									La champions League of Paladins a<br />
-									officiellement commencée, du cash à gagner, <br />
+									officiellement commencer, du cash à gagner, <br />
 									tentez votre chance !
 								</p>
 								<router-link class="background-main" to="/nouveau-tournoi"
@@ -212,33 +212,33 @@
 		<section class="background-bleu text-center subscribe">
 			<p class="slogan">
 				<span class="red">Tu veux participer ?</span> Inscris toi avec ton
-				equipe !
+				équipe !
 			</p>
 			<h3>Tente ta chance</h3>
 			<div class="container-logo">
 				<div class="d-flex item-align-center">
 					<span class="line"></span>
-					<p>paladins french tournament</p>
+					<p>Paladins French Tournament</p>
 					<span class="line"></span>
 				</div>
 			</div>
 			<p>
 				Peu importe ton âge, rassemble 5 joueurs, rejoins le discord et tente de
-				battre les équipes françaises de paladins.<br />
-				nos règles sont simples : insultes & cheats sont interdit , flames,
-				émotes et tout autres procédés du jeu sont autorisé ! Alors rejoins nous
+				battre les équipes françaises de Paladins.<br />
+				Nos règles sont simples : insultes & cheats sont interdits , flames,
+				émotes et tout autre procédé du jeu sont autorisés ! Alors rejoins nous
 				!
 			</p>
 			<div class="container-button">
 				<div class="d-flex">
 					<button class="background-main" @click="showModal = true">
-						Inscrit toi
+						Inscris toi
 					</button>
 					<a
 						class="reversal-background"
 						href="https://discord.gg/473E97gf"
 						target="_blank"
-						>Rejoind le discord</a
+						>Rejoins le discord</a
 					>
 				</div>
 			</div>

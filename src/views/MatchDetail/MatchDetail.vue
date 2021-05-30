@@ -268,6 +268,7 @@ h4 {
 		font-weight: 900;
 		text-transform: uppercase;
 		margin-right: 30px;
+		cursor: pointer;
 	}
 }
 a:last-child {

@@ -11,7 +11,7 @@
 							<h4>Lien du site</h4>
 							<router-link @click="scrollToTop()" to="/">Home</router-link>
 							<router-link @click="scrollToTop()" to="/reglement"
-								>Reglement</router-link
+								>Règlement</router-link
 							>
 							<router-link @click="scrollToTop()" to="/contact"
 								>Contact</router-link
@@ -26,11 +26,11 @@
 								>Equipes</router-link
 							>
 							<router-link @click="scrollToTop()" to="/resultat"
-								>Résultat</router-link
+								>Résultats</router-link
 							>
 						</div>
 						<div class="row">
-							<h4>Légales</h4>
+							<h4>Aspect légal</h4>
 							<router-link
 								@click="scrollToTop()"
 								to="/politique-confidentialite"
@@ -46,9 +46,9 @@
 						<div class="row special-width">
 							<h4>À propos</h4>
 							<p>
-								Paladins French Tournament est basé en France, crée par des
-								joueurs pour des joueurs, à l’écoute de la communauté Afin de
-								faire perdurer Paladins !
+								Paladins French Tournament est basé en France, créé par des
+								joueurs pour des joueurs, à l’écoute de la communauté afin de
+								faire perdurer Paladins !.
 							</p>
 						</div>
 					</div>

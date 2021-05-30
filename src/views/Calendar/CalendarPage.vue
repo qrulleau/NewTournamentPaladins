@@ -10,7 +10,7 @@
 						toggle();
 						[(CurrentMatch = 'ComingMatch')];
 					"
-					>MATCH à VENIR</a
+					>MATCH à VENIRS</a
 				>
 				<a
 					:class="!isActive ? 'active' : ''"
@@ -18,7 +18,7 @@
 						[(CurrentMatch = 'LastResult')];
 						toggle();
 					"
-					>DERNIER RÉSULTATS</a
+					>DERNIERs RÉSULTATS</a
 				>
 			</div>
 			<section v-if="CurrentMatch === 'ComingMatch'">

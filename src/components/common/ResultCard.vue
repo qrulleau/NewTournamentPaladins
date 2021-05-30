@@ -3,16 +3,16 @@
 		<h3>Groupe A</h3>
 		<div class="d-flex head">
 			<div class="club">
-				<h4>Club</h4>
+				<h4>Equipes</h4>
 			</div>
 			<div class="game-played">
-				<h4>Match joué</h4>
+				<h4>Matchs joués</h4>
 			</div>
 			<div class="game-lost">
-				<h4>Match Perdu</h4>
+				<h4>Matchs Perdus</h4>
 			</div>
 			<div class="game-win">
-				<h4>Match Gagné</h4>
+				<h4>Matchs Gagnés</h4>
 			</div>
 			<div class="point">
 				<h4>Points</h4>
@@ -21,7 +21,7 @@
 		<div class="body">
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Bayern</p>
+					<p>Contact Blanc</p>
 				</div>
 				<div class="game-played">
 					<p>1</p>
@@ -38,7 +38,7 @@
 			</div>
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Bayern</p>
+					<p>Chocolatine</p>
 				</div>
 				<div class="game-played">
 					<p>1</p>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Bayern</p>
+					<p>Sylical</p>
 				</div>
 				<div class="game-played">
 					<p>1</p>
@@ -72,7 +72,7 @@
 			</div>
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Bayern</p>
+					<p>Viper Solar</p>
 				</div>
 				<div class="game-played">
 					<p>1</p>

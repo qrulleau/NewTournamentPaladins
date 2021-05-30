@@ -10,10 +10,10 @@
 					<h2 class="red">Pour entrer en contact :</h2>
 					<h3 class="question">
 						Si tu as une question, <br />
-						n'hesite pas à nous contacter
+						n'hésites pas à nous contacter
 					</h3>
 					<p>
-						Nous sommes joignables par ces differentes methodes: email,
+						Nous sommes joignables par ces différentes méthodes: email,
 						formulaire de contact, discord (AlarmeColver#4001, Pettiote#3049,
 						NekrosComing#2334) .
 					</p>
