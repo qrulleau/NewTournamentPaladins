@@ -159,7 +159,7 @@
 								<input type="checkbox" name="" id="" />
 								<p>
 									En nous inscrivant, nous acceptons
-									<router-link to="/#" class="rules"
+									<router-link to="/reglement" class="rules"
 										>le réglement du tournoi</router-link
 									>
 								</p>

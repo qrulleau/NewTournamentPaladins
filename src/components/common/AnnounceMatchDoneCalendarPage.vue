@@ -14,7 +14,7 @@
 			</div>
 			<span class="line"></span>
 			<div>
-				<h4>Champion League of paladins</h4>
+				<h4>Champion League of Paladins</h4>
 				<p class="status red">ONLINE</p>
 				<p class="black">16 juin à 21h</p>
 			</div>

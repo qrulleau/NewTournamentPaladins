@@ -10,26 +10,45 @@
 						<div class="row">
 							<h4>Lien du site</h4>
 							<router-link @click="scrollToTop()" to="/">Home</router-link>
-							<router-link @click="scrollToTop()" to="#">Reglement</router-link>
-							<router-link @click="scrollToTop()" to="/contact">Contact</router-link>
+							<router-link @click="scrollToTop()" to="/reglement"
+								>Reglement</router-link
+							>
+							<router-link @click="scrollToTop()" to="/contact"
+								>Contact</router-link
+							>
 						</div>
 						<div class="row">
 							<h4>Tournois & Equipes</h4>
-							<router-link @click="scrollToTop()" to="/calendrier">Calendrier</router-link>
-							<router-link @click="scrollToTop()" to="/equipes">Equipes</router-link>
-							<router-link @click="scrollToTop()" to="/resultat">Résultat</router-link>
+							<router-link @click="scrollToTop()" to="/calendrier"
+								>Calendrier</router-link
+							>
+							<router-link @click="scrollToTop()" to="/equipes"
+								>Equipes</router-link
+							>
+							<router-link @click="scrollToTop()" to="/resultat"
+								>Résultat</router-link
+							>
 						</div>
 						<div class="row">
 							<h4>Légales</h4>
-							<router-link @click="scrollToTop()" to="/politique-confidentialite">Politique de confidentialité</router-link>
-							<router-link @click="scrollToTop()" to="/politique-cookie">Politique de cookies</router-link>
-							<router-link @click="scrollToTop()" to="/mention-legales">Mentions Légales</router-link>
+							<router-link
+								@click="scrollToTop()"
+								to="/politique-confidentialite"
+								>Politique de confidentialité</router-link
+							>
+							<router-link @click="scrollToTop()" to="/politique-cookie"
+								>Politique de cookies</router-link
+							>
+							<router-link @click="scrollToTop()" to="/mention-legales"
+								>Mentions Légales</router-link
+							>
 						</div>
 						<div class="row special-width">
 							<h4>À propos</h4>
 							<p>
-								Paladins French Tournament est basé en France, crée par des joueurs pour des joueurs, à l’écoute de la communauté Afin de faire
-								perdurer Paladins !
+								Paladins French Tournament est basé en France, crée par des
+								joueurs pour des joueurs, à l’écoute de la communauté Afin de
+								faire perdurer Paladins !
 							</p>
 						</div>
 					</div>
