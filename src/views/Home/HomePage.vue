@@ -177,20 +177,20 @@
 			<div class="small-container">
 				<div class="d-flex text-center">
 					<div class="stats">
-						<h3>2,050k</h3>
+						<h3>0</h3>
 						<p>Youtube stream</p>
 					</div>
 					<div class="stats">
-						<h3>25+</h3>
+						<h3>0</h3>
 						<p>Teams</p>
 					</div>
 					<div class="stats">
-						<h3>210€</h3>
+						<h3>150€</h3>
 						<p>Cashprice</p>
 					</div>
 					<div class="stats">
 						<h3>Vues twitch</h3>
-						<p>3000</p>
+						<p>0</p>
 					</div>
 				</div>
 			</div>
