@@ -14,7 +14,7 @@
 								</h3>
 								<p class="description">
 									La champions League of Paladins a<br />
-									officiellement commencée, du cash à gagné, <br />
+									officiellement commencée, du cash à gagner, <br />
 									tentez votre chance !
 								</p>
 								<router-link class="background-main" to="/nouveau-tournoi"

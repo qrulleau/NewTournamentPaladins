@@ -10,7 +10,7 @@
 					</div>
 					<div class="d-flex justify item-align-center">
 						<span class="line"></span>
-						<h3>Champion League of paladins</h3>
+						<h3>Champion League of Paladins</h3>
 						<span class="line"></span>
 					</div>
 					<h4 class="text-center">Saison 2021</h4>
