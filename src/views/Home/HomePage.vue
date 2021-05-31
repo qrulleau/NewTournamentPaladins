@@ -5,7 +5,7 @@
 				<div class="container">
 					<HeaderNav class="pt-100" />
 					<div class="small-container">
-						<div class="d-flex pt-140 item-align-center pb-402px">
+						<div class="d-flex pt-140 item-align-center pb-371px">
 							<div>
 								<h3>INTRODUCTION</h3>
 								<p class="description">
@@ -414,8 +414,8 @@ option {
 	display: flex;
 	justify-content: center;
 }
-.pb-402px {
-	padding-bottom: 402px;
+.pb-371px {
+	padding-bottom: 371px;
 }
 .announce {
 	padding: 24px 16px 24px 12px;
