@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="d-flex item-align-center">
 					<div>
-						<img src="../../assets/LogoTournament/LogoTournament.png" alt="" />
+						<img src="https://i.ibb.co/3B7wVMh/logo-Tournament.png" alt="" />
 					</div>
 					<div class="d-flex ml-60">
 						<div class="row">

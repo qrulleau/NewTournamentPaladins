@@ -4,7 +4,7 @@
 			<div class="d-flex item-align-center">
 				<div>
 					<h1>
-						<img src="../../assets/LogoTournament/LogoTournament.png" alt="" />
+						<img src="https://i.ibb.co/3B7wVMh/logo-Tournament.png" alt="" />
 					</h1>
 				</div>
 				<nav>
