@@ -4,9 +4,9 @@
 			<div class="container">
 				<div class="d-flex item-align-center">
 					<div>
-						<h1>Paladins<span>French Tournament</span></h1>
+						<img src="../../assets/LogoTournament/LogoTournament.png" alt="" />
 					</div>
-					<div class="d-flex">
+					<div class="d-flex ml-60">
 						<div class="row">
 							<h4>Lien du site</h4>
 							<router-link @click="scrollToTop()" to="/">Home</router-link>
@@ -92,5 +92,8 @@ a {
 }
 .background-black {
 	padding: 80px 40px;
+}
+.ml-60 {
+	margin-left: 60px;
 }
 </style>

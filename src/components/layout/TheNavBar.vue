@@ -1,9 +1,11 @@
 <template>
 	<header>
 		<div class="container">
-			<div class="d-flex">
+			<div class="d-flex item-align-center">
 				<div>
-					<h1 class="white">Paladins <span>French Tournament</span></h1>
+					<h1>
+						<img src="../../assets/LogoTournament/LogoTournament.png" alt="" />
+					</h1>
 				</div>
 				<nav>
 					<div class="d-flex">
