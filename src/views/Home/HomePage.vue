@@ -7,11 +7,7 @@
 					<div class="small-container">
 						<div class="d-flex pt-140 item-align-center pb-402px">
 							<div>
-								<h2>Introduction</h2>
-								<h3>
-									Paladins <br />
-									French Tournament
-								</h3>
+								<h3>INTRODUCTION</h3>
 								<p class="description">
 									La champions League of Paladins a<br />
 									officiellement commencé, du cash à gagner, <br />
@@ -452,14 +448,11 @@ option {
 	}
 }
 section.landing-page {
-	h2 {
-		font-size: 18px;
-		font-weight: 400;
-	}
 	h3 {
-		font-size: 48px;
+		font-size: 30px;
 		font-weight: 700;
-		margin: 24px 0 14px 0;
+		text-transform: uppercase;
+		margin-bottom: 28px;
 	}
 	p.description {
 		margin-bottom: 92px;
