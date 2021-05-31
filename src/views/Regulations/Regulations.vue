@@ -156,14 +156,6 @@
 					soit autorisé il faut l’accord des deux capitaines concernés ainsi que
 					de l’arbitre du match.
 				</p>
-				<p>
-					- Tout report de match doit être demandé au minimum 48h à l’avance par
-					l’équipe qui le souhaite. Le match doit être reporté dans la même
-					journée que prévu initialement (exemple si vous jouez normalement à
-					14h, vous pouvez demander à jouer à 15-16 ou 17h). Pour qu’un report
-					soit autorisé il faut l’accord des deux capitaines concernés ainsi que
-					de l’arbitre du match.
-				</p>
 				<p>- Tout report après la date limite de 48h sera décliné.</p>
 			</section>
 			<section>
