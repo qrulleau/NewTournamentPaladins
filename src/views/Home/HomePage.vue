@@ -191,20 +191,6 @@
 				</div>
 			</div>
 		</div>
-		<section class="background-image-match">
-			<div class="text-center">
-				<h3 class="red">Champions League of Paladins</h3>
-				<h4>FUTURES MATCH</h4>
-				<AnnounceMatch />
-				<AnnounceMatch />
-				<AnnounceMatch />
-				<div class="pt-36 text-center">
-					<router-link to="/calendrier" class="background-main"
-						>En voir plus</router-link
-					>
-				</div>
-			</div>
-		</section>
 		<section class="background-bleu text-center subscribe">
 			<p class="slogan">
 				<span class="red">Tu veux participer ?</span> Inscris toi avec ton
@@ -239,6 +225,20 @@
 						href="https://discord.gg/473E97gf"
 						target="_blank"
 						>Rejoins le discord</a
+					>
+				</div>
+			</div>
+		</section>
+		<section class="background-image-match">
+			<div class="text-center">
+				<h3 class="red">Champions League of Paladins</h3>
+				<h4>FUTURES MATCH</h4>
+				<AnnounceMatch />
+				<AnnounceMatch />
+				<AnnounceMatch />
+				<div class="pt-36 text-center">
+					<router-link to="/calendrier" class="background-main"
+						>En voir plus</router-link
 					>
 				</div>
 			</div>
