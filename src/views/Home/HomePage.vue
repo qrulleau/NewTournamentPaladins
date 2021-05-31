@@ -211,7 +211,7 @@
 			<p>
 				Peu importe ton âge, rassemble 5 joueurs, rejoins le discord et tente de
 				battre les équipes françaises de Paladins.<br />
-				Nos règles sont simples : insultes & cheats sont interdits , flames,
+				Nos règles sont simples : insultes & cheats sont interdits. Flames,
 				émotes et tout autre procédé du jeu sont autorisés ! Alors rejoins nous
 				!
 			</p>
