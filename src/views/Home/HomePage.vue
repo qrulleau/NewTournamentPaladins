@@ -212,7 +212,11 @@
 		<section class="background-bleu text-center subscribe">
 			<p class="slogan">
 				<span class="red">Tu veux participer ?</span> Inscris toi avec ton
-				équipe !
+				équipe !*
+			</p>
+			<p class="italic text-center">
+				Inscription disponible jusqu'au 26 juin 2021 pour la Champions League of
+				Pladins
 			</p>
 			<h3>Tente ta chance</h3>
 			<div class="container-logo">
@@ -484,8 +488,12 @@ section.subscribe {
 	padding: 92px 0 120px 0;
 	.slogan {
 		font-size: 26px;
-		margin-bottom: 60px;
+		margin-bottom: 16px;
 		line-height: inherit;
+	}
+	.italic {
+		margin-bottom: 28px;
+		font-size: 13px;
 	}
 	p {
 		font-size: 18px;
