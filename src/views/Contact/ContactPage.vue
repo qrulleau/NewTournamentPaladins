@@ -24,7 +24,7 @@
 						</div>
 						<div class="d-flex item-align-center flex-start">
 							<i class="fas fa-map-pin"></i>
-							<p>33 avenue de mon cul, France</p>
+							<p>3750 Brookside Pkwy, Alpharetta, GA 30022, États-Unis</p>
 						</div>
 					</div>
 					<h4>Follow</h4>
