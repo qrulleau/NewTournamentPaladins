@@ -198,7 +198,7 @@
 			</p>
 			<p class="italic text-center">
 				Inscription disponible jusqu'au 6 juin 2021 pour la Champions League of
-				Pladins
+				Paladins
 			</p>
 			<h3>Tente ta chance</h3>
 			<div class="container-logo">
