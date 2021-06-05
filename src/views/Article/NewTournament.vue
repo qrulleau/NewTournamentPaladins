@@ -29,8 +29,9 @@
 				</p>
 				<p>
 					Pour ce premier tournoi afin de récompenser les 2 meilleures teams
-					francaises, un cashprice de 150€ sera à gagner, 100€ pour les permiers
-					et 50€ pour les deuxièmes.
+					francaises, un cashprice de 150€ sera à gagner, 100€ pour les premiers
+					et 50€ pour les deuxièmes. les inscriptions se fermeront le 13 juin
+					2020 et débutera le 19 juin dans l'après midi
 				</p>
 			</section>
 			<section>
