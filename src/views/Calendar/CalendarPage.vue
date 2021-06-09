@@ -92,5 +92,7 @@ a:last-child {
 }
 a.active {
 	color: white;
+	padding-bottom: 8px;
+	border-bottom: 4px solid #b91911;
 }
 </style>
