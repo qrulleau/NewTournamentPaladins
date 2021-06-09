@@ -13,18 +13,17 @@
 									officiellement commencé, du cash à gagner, <br />
 									tentez votre chance !
 								</p>
-								<router-link class="background-main" to="/nouveau-tournoi"
-									>Plus d'info -></router-link
-								>
+								<router-link class="background-main" to="/nouveau-tournoi">
+									<div class="d-flex item-align-center">
+										Plus d'info
+										<i class="fas fa-arrow-right"></i>
+									</div>
+								</router-link>
 							</div>
 							<div>
 								<div>
 									<span class="red-underline"></span>
-									<embed
-										width="323"
-										height="172"
-										src="https://www.youtube.com/embed/hwVYNqkNuGk"
-									/>
+									<embed width="323" height="172" src="https://www.youtube.com/embed/hwVYNqkNuGk" />
 									<div class="background-white padding">
 										<div class="d-flex item-align-center">
 											<div>
@@ -77,87 +76,36 @@
 						<form action="https://formspree.io/f/xeqvggyp" method="post">
 							<div class="d-flex flex-column section">
 								<label for="team-name">Nom de l'équipe</label>
-								<input
-									type="text"
-									name="team-name"
-									id="team-name"
-									placeholder="EX: Chocolatine"
-								/>
+								<input type="text" name="team-name" id="team-name" placeholder="EX: Chocolatine" />
 							</div>
 							<div class="d-flex flex-column section">
-								<label for="capitaine-name"
-									>Pseudo du capitaine dans le jeu & pseudo discord</label
-								>
-								<input
-									type="text"
-									name="capitaine-name"
-									id="capitaine-name"
-									placeholder="EX: AlarmeColver, AlarmeColver #4001"
-								/>
+								<label for="capitaine-name">Pseudo du capitaine dans le jeu & pseudo discord</label>
+								<input type="text" name="capitaine-name" id="capitaine-name" placeholder="EX: AlarmeColver, AlarmeColver #4001" />
 							</div>
 							<div class="section">
-								<label for="team-player-name"
-									>Pseudos des 4 autres joueurs de l’équipe dans le jeu &
-									pseudos discord</label
-								>
+								<label for="team-player-name">Pseudos des 4 autres joueurs de l’équipe dans le jeu & pseudos discord</label>
 								<div class="d-flex team width">
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-player-name"
-										id="team-player-name"
-									/>
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-player-name"
-										id="team-player-name"
-									/>
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-player-name" id="team-player-name" />
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-player-name" id="team-player-name" />
 								</div>
 								<div class="d-flex width">
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-player-name"
-										id="team-player-name"
-									/>
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-player-name"
-										id="team-player-name"
-									/>
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-player-name" id="team-player-name" />
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-player-name" id="team-player-name" />
 								</div>
 							</div>
 							<div class="section sub">
-								<label for="team-sub-name"
-									>Pseudo des 2 subs dans le jeu et pseudo discord*</label
-								>
-								<p class="italic">
-									* une même personne peut sub plusieurs équipes
-								</p>
+								<label for="team-sub-name">Pseudo des 2 subs dans le jeu et pseudo discord*</label>
+								<p class="italic">* une même personne peut sub plusieurs équipes</p>
 								<div class="d-flex width">
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-sub-name"
-										id="team-sub-name"
-									/>
-									<input
-										type="text"
-										placeholder="EX: AlarmeColver, AlarmeColver #4001"
-										name="team-sub-name"
-										id="team-sub-name"
-									/>
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-sub-name" id="team-sub-name" />
+									<input type="text" placeholder="EX: AlarmeColver, AlarmeColver #4001" name="team-sub-name" id="team-sub-name" />
 								</div>
 							</div>
 							<div class="d-flex flex-start section">
 								<input type="checkbox" name="" id="" />
 								<p>
 									En nous inscrivant, nous acceptons
-									<router-link to="/reglement" class="rules"
-										>le réglement du tournoi</router-link
-									>
+									<router-link to="/reglement" class="rules">le réglement du tournoi</router-link>
 								</p>
 							</div>
 							<div class="d-flex flex-center">
@@ -192,13 +140,9 @@
 			</div>
 		</div>
 		<section class="background-bleu text-center subscribe">
-			<p class="slogan">
-				<span class="red">Tu veux participer ?</span> Inscris toi avec ton
-				équipe !*
-			</p>
+			<p class="slogan"><span class="red">Tu veux participer ?</span> Inscris toi avec ton équipe !*</p>
 			<p class="italic text-center">
-				Inscription disponible jusqu'au 13 juin 2021 pour la Champions League of
-				Pladins <br />
+				Inscription disponible jusqu'au 13 juin 2021 pour la Champions League of Pladins <br />
 				Début du tournoi le 19 juin dans l'après midi !
 			</p>
 			<h3>Tente ta chance</h3>
@@ -210,23 +154,13 @@
 				</div>
 			</div>
 			<p>
-				Peu importe ton âge, rassemble 5 joueurs, rejoins le discord et tente de
-				battre les équipes françaises de Paladins.<br />
-				Nos règles sont simples : insultes & cheats sont interdits. Flames,
-				émotes et tout autre procédé du jeu sont autorisés ! Alors rejoins nous
-				!
+				Peu importe ton âge, rassemble 5 joueurs, rejoins le discord et tente de battre les équipes françaises de Paladins.<br />
+				Nos règles sont simples : insultes & cheats sont interdits. Flames, émotes et tout autre procédé du jeu sont autorisés ! Alors rejoins nous !
 			</p>
 			<div class="container-button">
 				<div class="d-flex">
-					<button class="background-main" @click="showModal = true">
-						Inscris toi
-					</button>
-					<a
-						class="reversal-background"
-						href="https://discord.gg/473E97gf"
-						target="_blank"
-						>Rejoins le discord</a
-					>
+					<button class="background-main" @click="showModal = true">Inscris toi</button>
+					<a class="reversal-background" href="https://discord.gg/473E97gf" target="_blank">Rejoins le discord</a>
 				</div>
 			</div>
 		</section>
@@ -238,9 +172,7 @@
 				<AnnounceMatch />
 				<AnnounceMatch />
 				<div class="pt-36 text-center">
-					<router-link to="/calendrier" class="background-main"
-						>En voir plus</router-link
-					>
+					<router-link to="/calendrier" class="background-main">En voir plus</router-link>
 				</div>
 			</div>
 		</section>
@@ -456,7 +388,7 @@ section.landing-page {
 		margin-bottom: 28px;
 	}
 	p.description {
-		margin-bottom: 92px;
+		margin-bottom: 48px;
 		font-size: 18px;
 		line-height: 150%;
 	}
@@ -510,6 +442,9 @@ section.subscribe {
 		background-color: #ffff;
 		display: block;
 	}
+}
+.fa-arrow-right {
+	margin-left: 8px;
 }
 .modal-background {
 	position: fixed;
