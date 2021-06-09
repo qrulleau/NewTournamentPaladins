@@ -15,23 +15,22 @@
 			<span class="line"></span>
 			<div>
 				<h4>Champion League of Paladins</h4>
-				<p class="status red">ONLINE</p>
 				<p class="black">16 juin à 21h</p>
 			</div>
 			<span class="line"></span>
 			<div>
-				<h5>Voir le match en live</h5>
 				<a href="https://www.twitch.tv/paladinsfrenchtournament">
 					<i class="fab fa-twitch"></i>
 				</a>
 			</div>
 		</div>
-		<div>
-			<a href="#">
-				<router-link to="/match-detail">
+		<div class="button">
+			<router-link to="/match-detail-done">
+				<div class="d-flex item-align-center">
+					Voir Le match
 					<i class="fas fa-arrow-right"></i>
-				</router-link>
-			</a>
+				</div>
+			</router-link>
 		</div>
 	</div>
 </template>
@@ -42,7 +41,7 @@ export default {};
 
 <style lang="scss" scoped>
 .card {
-	padding: 38px 52px;
+	padding: 28px 40px;
 	border-radius: 10px;
 }
 span.line {
@@ -54,24 +53,17 @@ span.line {
 span:last-child {
 	margin-left: 44px;
 }
-.status {
-	background-color: white;
-	padding: 7px 12px;
-	margin: 10px 0;
-	width: 73px;
-	font-size: 14px;
-	font-weight: bold;
-	border-radius: 10px;
-}
 h3 {
-	margin-top: 48px;
+	margin-top: 20px;
+}
+h4 {
+	margin-bottom: 12px;
 }
 h5 {
 	font-size: 16px;
 }
 .fa-arrow-right {
 	background-color: white;
-	padding: 5px 10px;
 	color: #b91911;
 	border-radius: 9px;
 }
@@ -81,7 +73,7 @@ h5 {
 }
 .match-detail p {
 	font-weight: bold;
-	padding: 19px 20px;
+	padding: 13px 12px;
 	background-color: white;
 	border: 3px solid #dcd7d7;
 	border-radius: 40px;
@@ -100,5 +92,16 @@ h5 {
 }
 h5 {
 	margin-bottom: 17px;
+}
+.button {
+	background-color: #fff;
+	border-radius: 9px;
+	.d-flex {
+		color: #b91911;
+		font-weight: bold;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding: 12px 10px;
+	}
 }
 </style>
