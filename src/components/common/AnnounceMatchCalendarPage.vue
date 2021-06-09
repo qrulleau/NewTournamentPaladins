@@ -42,7 +42,7 @@ export default {};
 <style lang="scss" scoped>
 .card {
 	padding: 28px 40px;
-	border-radius: 10px;
+	border-radius: 16px;
 }
 span.line {
 	width: 1px;
