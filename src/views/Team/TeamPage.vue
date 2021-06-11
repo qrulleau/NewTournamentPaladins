@@ -14,28 +14,72 @@
 			<div class="container-body">
 				<section v-show="TournamentChoice === 'ChampionsLeague'">
 					<div class="d-flex margin">
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-					</div>
-					<div class="d-flex margin">
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-					</div>
-					<div class="d-flex margin">
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-					</div>
-					<div class="d-flex mb60">
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
-						<TeamCard />
+						<TeamCard
+							TeamName="GPT Esport"
+							Player1="PotatoHunterz"
+							RolePlayer1="Healer"
+							Player2="tobo14"
+							RolePlayer2="Flex"
+							Player3="MidoriNoO"
+							RolePlayer3="Flex"
+							Player4="Alpha867"
+							RolePlayer4="DPS"
+							Player5="TheLastGuardian"
+							RolePlayer5="Tank"
+							Sub1="Lorminator2001"
+							RoleSub1="Sub"
+							Sub2="LucasDrifter"
+							RoleSub2="Sub"
+						/>
+						<TeamCard
+							TeamName="LIGHTNING"
+							Player1="Arcan"
+							RolePlayer1="Tank"
+							Player2="Lystale"
+							RolePlayer2="Healer"
+							Player3="Kurt135"
+							RolePlayer3="Tank"
+							Player4="Zrp73"
+							RolePlayer4="DPS"
+							Player5="Terichess"
+							RolePlayer5="Tank"
+							Sub1="Nøctali"
+							RoleSub1="Sub"
+							Sub2="AlarmeColver"
+							RoleSub2="Sub"
+						/>
+						<TeamCard
+							TeamName="MINERVA"
+							Player1="pharmaceutique"
+							RolePlayer1="Heal"
+							Player2="zikouz"
+							RolePlayer2="DPS"
+							Player3="genesect500"
+							RolePlayer3="Tank"
+							Player4="cartix777"
+							RolePlayer4="Tank"
+							Player5="Wyseer"
+							RolePlayer5="DPS"
+							Sub1="Metroidgamer45"
+							RoleSub1="Sub"
+						/>
+						<TeamCard
+							TeamName="AdbulJoestar"
+							Player1="Frzo"
+							RolePlayer1="Flex"
+							Player2="Etsuuu"
+							RolePlayer2="Flex"
+							Player3="NOWKH"
+							RolePlayer3="Flex"
+							Player4="Otev"
+							RolePlayer4="Flex"
+							Player5="FLAASHOU"
+							RolePlayer5="Flex"
+							Sub1="LaDji"
+							RoleSub1="Sub"
+							Sub2="Némësys"
+							RoleSub2="Sub"
+						/>
 					</div>
 				</section>
 			</div>
