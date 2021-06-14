@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="button">
-			<router-link to="/match-detail-done">
+			<router-link to="/match-detail">
 				<div class="d-flex item-align-center">
 					Voir Le match
 					<i class="fas fa-arrow-right"></i>
