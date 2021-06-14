@@ -81,6 +81,76 @@
 							RoleSub2="Sub"
 						/>
 					</div>
+					<div class="d-flex margin">
+						<TeamCard
+							TeamName="JobLess"
+							Player1="Arzën"
+							RolePlayer1="Healer"
+							Player2="Oxygen"
+							RolePlayer2="Flex"
+							Player3="Parazigod"
+							RolePlayer3="Flex"
+							Player4="SOOOOOOOON"
+							RolePlayer4="DPS"
+							Player5="CodryzerTTV"
+							RolePlayer5="DPS"
+							Sub1="Møugli"
+							RoleSub1="Sub"
+							Sub2="XxBenjiGamerxX"
+							RoleSub2="Sub"
+						/>
+						<TeamCard
+							TeamName="Alpaga"
+							Player1="Snaýz"
+							RolePlayer1="Tank"
+							Player2="BasicBotPlayer"
+							RolePlayer2="Healer"
+							Player3="Némësys"
+							RolePlayer3="Tank"
+							Player4="Eclaat"
+							RolePlayer4="DPS"
+							Player5="envel8"
+							RolePlayer5="Tank"
+							Sub1="Vespalia"
+							RoleSub1="Sub"
+							Sub2="Sàphiir"
+							RoleSub2="Sub"
+						/>
+						<TeamCard
+							TeamName="Sylical"
+							Player1="KuroFS"
+							RolePlayer1="Heal"
+							Player2="Azorare"
+							RolePlayer2="Tank"
+							Player3="Køsmic"
+							RolePlayer3="Tank"
+							Player4="Møugí"
+							RolePlayer4="DPS"
+							Player5="Aymeshin"
+							RolePlayer5="DPS"
+							Sub1="kitaraaaa"
+							RoleSub1="Sub"
+							Sub2="kitaraaaa"
+							RoleSub2="Sub"
+						/>
+						<TeamCard
+							TeamName="Tourcoing Eternals"
+							Player1="Dinopierre"
+							RolePlayer1="Flex"
+							Player2="Lerazo"
+							RolePlayer2="Flex"
+							Player3="Keema"
+							RolePlayer3="Flex"
+							Player4="BANG"
+							RolePlayer4="Heal"
+							Player5="Balhrog"
+							RolePlayer5="Tank"
+							Sub1="Némësys"
+							RoleSub1="Sub"
+							Sub2="Frost78"
+							RoleSub2="Sub"
+						/>
+					</div>
 				</section>
 			</div>
 		</div>
@@ -129,5 +199,20 @@ export default {
 }
 h2 {
 	margin-bottom: 75px;
+}
+@media screen and (max-width: 1300px) {
+	.container-body {
+		width: calc(100% - 30px);
+	}
+}
+@media screen and (max-width: 1200px) {
+	.margin {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 0;
+		.box {
+			margin-bottom: 20px;
+		}
+	}
 }
 </style>
