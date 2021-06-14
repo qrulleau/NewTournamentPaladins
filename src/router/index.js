@@ -64,11 +64,10 @@ const routes = [
 		path: '/reglement',
 		component: Regulations,
 	},
-
-	// {
-	// 	path: '/:catchAll(.*)',
-	// 	component: AppError,
-	// },
+	{
+		path: '/:catchAll(.*)',
+		component: HomePage,
+	},
 ];
 
 const router = createRouter({
