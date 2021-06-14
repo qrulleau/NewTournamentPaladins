@@ -130,7 +130,7 @@
 							RolePlayer5="DPS"
 							Sub1="kitaraaaa"
 							RoleSub1="Sub"
-							Sub2="kitaraaaa"
+							Sub2="BestKindredEU"
 							RoleSub2="Sub"
 						/>
 						<TeamCard
