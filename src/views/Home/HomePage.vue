@@ -5,7 +5,7 @@
 				<div class="container">
 					<HeaderNav class="pt-100" />
 					<div class="small-container">
-						<div class="d-flex pt-140 item-align-center pb-371px">
+						<div class="d-flex pt-140 item-align-center pb-368px">
 							<div>
 								<h3>INTRODUCTION</h3>
 								<p class="description">
@@ -20,7 +20,7 @@
 									</div>
 								</router-link>
 							</div>
-							<div>
+							<div class="replay">
 								<div>
 									<span class="red-underline"></span>
 									<embed width="323" height="172" src="https://www.youtube.com/embed/hwVYNqkNuGk" />
@@ -133,8 +133,8 @@
 						<p>Cashprice</p>
 					</div>
 					<div class="stats">
-						<h3>Vues twitch</h3>
-						<p>0</p>
+						<h3>0</h3>
+						<p>Vues twitch</p>
 					</div>
 				</div>
 			</div>
@@ -149,7 +149,7 @@
 			<div class="container-logo">
 				<div class="d-flex item-align-center">
 					<span class="line"></span>
-					<p>Paladins French Tournament</p>
+					<img src="../../assets/LogoTournament/logoNoText.png" alt="" />
 					<span class="line"></span>
 				</div>
 			</div>
@@ -199,34 +199,6 @@ export default {
 </script>
 
 <style lang="scss">
-.flex-start {
-	justify-content: flex-start !important;
-}
-.flex-center {
-	justify-content: center !important;
-}
-.d-flex {
-	display: flex;
-	justify-content: space-between;
-}
-.flex-column {
-	flex-direction: column;
-}
-.flex-end {
-	justify-content: flex-end;
-}
-.background-black {
-	background-color: black;
-}
-.background-white {
-	background-color: white;
-}
-.background-bleu {
-	background-color: #080b15;
-}
-.background-main {
-	background: linear-gradient(180deg, #c5400f 0%, #b91911 100%);
-}
 .reversal-background {
 	border: 2px solid #b91911;
 	display: flex;
@@ -245,29 +217,6 @@ h1 {
 .container {
 	width: 1624px;
 	margin: 0 auto;
-}
-.black {
-	color: black;
-}
-.red {
-	color: #b91911;
-}
-.orange {
-	color: #c5400f;
-}
-.grey {
-	color: #afafbc;
-}
-.italic {
-	font-style: italic;
-}
-* {
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-	font-family: 'Roboto', sans-serif;
-	padding: 0;
-	margin: 0;
-	color: white;
 }
 button,
 a.background-main,
@@ -307,24 +256,17 @@ option {
 	color: black;
 	font-weight: 500;
 }
-.item-align-center {
-	align-items: center;
-}
-.text-center {
-	text-align: center;
-}
-.text-left {
-	text-align: left;
-}
-.text-right {
-	text-align: right;
-}
+
 .background-image {
 	background-image: url('https://i.ibb.co/gZ3tZjQ/HomePage.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
 }
 .background-image-match {
 	background-image: url('https://i.ibb.co/JHgnRfv/Home-Page-Schedule.jpg');
 	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #141e30;
 }
 .pt-100 {
 	padding-top: 80px;
@@ -347,8 +289,8 @@ option {
 	display: flex;
 	justify-content: center;
 }
-.pb-371px {
-	padding-bottom: 371px;
+.pb-368px {
+	padding-bottom: 368px;
 }
 .announce {
 	padding: 24px 16px 24px 12px;
@@ -525,6 +467,11 @@ section.subscribe {
 @media screen and (max-width: 1600px) {
 	.container {
 		width: calc(100% - 30px);
+	}
+}
+@media screen and (max-width: 1380px) {
+	.small-container {
+		width: 100%;
 	}
 }
 </style>

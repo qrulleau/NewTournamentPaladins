@@ -255,10 +255,11 @@ h4 {
 	}
 }
 .underline-red {
-	border-bottom: 3px solid #c5400f;
+	border-left: 6px solid #c5400f;
 	width: max-content;
 	font-weight: 900;
 	font-size: 24px;
+	padding-left: 8px;
 }
 .selection-currently {
 	margin: 36px 0 28px 0;
@@ -290,11 +291,7 @@ a.active {
 	right: 0;
 	left: 0;
 	top: 70%;
-	background: linear-gradient(
-		270deg,
-		rgba(23, 23, 33, 0) -3.11%,
-		#171721 95.17%
-	);
+	background: linear-gradient(270deg, rgba(23, 23, 33, 0) -3.11%, #171721 95.17%);
 	padding: 28px 0 12px 8px;
 	h4 {
 		margin: 0 0 4px 0;
@@ -310,5 +307,7 @@ section#team {
 }
 a.active {
 	font-weight: 900;
+	padding-bottom: 8px;
+	border-bottom: 4px solid #b91911;
 }
 </style>

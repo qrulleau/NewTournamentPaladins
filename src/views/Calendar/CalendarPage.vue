@@ -7,8 +7,8 @@
 				<a
 					:class="isActive ? 'active' : ''"
 					@click="
-						toggle();
 						[(CurrentMatch = 'ComingMatch')];
+						toggle();
 					"
 					>MATCH à VENIRS</a
 				>
@@ -28,13 +28,13 @@
 				<AnnounceMatch class="mt-20" />
 				<AnnounceMatch class="mt-20" />
 			</section>
-			<section v-if="CurrentMatch === 'LastResult'">
+			<!-- <section v-if="CurrentMatch === 'LastResult'">
 				<AnnounceMatchDone />
 				<AnnounceMatchDone class="mt-20" />
 				<AnnounceMatchDone class="mt-20" />
 				<AnnounceMatchDone class="mt-20" />
 				<AnnounceMatchDone class="mt-20" />
-			</section>
+			</section> -->
 		</div>
 	</div>
 	<FooterNav />
@@ -61,6 +61,7 @@ export default {
 	methods: {
 		toggle() {
 			this.isActive = !this.isActive;
+			console.log(this.CurrentMatch);
 		},
 	},
 };

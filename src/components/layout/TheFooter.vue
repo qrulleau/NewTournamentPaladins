@@ -10,45 +10,26 @@
 						<div class="row">
 							<h4>Lien du site</h4>
 							<router-link @click="scrollToTop()" to="/">Home</router-link>
-							<router-link @click="scrollToTop()" to="/reglement"
-								>Règlement</router-link
-							>
-							<router-link @click="scrollToTop()" to="/contact"
-								>Contact</router-link
-							>
+							<router-link @click="scrollToTop()" to="/reglement">Règlement</router-link>
+							<router-link @click="scrollToTop()" to="/contact">Contact</router-link>
 						</div>
 						<div class="row">
 							<h4>Tournois & Equipes</h4>
-							<router-link @click="scrollToTop()" to="/calendrier"
-								>Calendrier</router-link
-							>
-							<router-link @click="scrollToTop()" to="/equipes"
-								>Equipes</router-link
-							>
-							<router-link @click="scrollToTop()" to="/resultat"
-								>Résultats</router-link
-							>
+							<router-link @click="scrollToTop()" to="/calendrier">Calendrier</router-link>
+							<router-link @click="scrollToTop()" to="/equipes">Equipes</router-link>
+							<router-link @click="scrollToTop()" to="/resultat">Résultats</router-link>
 						</div>
 						<div class="row">
 							<h4>Aspect légal</h4>
-							<router-link
-								@click="scrollToTop()"
-								to="/politique-confidentialite"
-								>Politique de confidentialité</router-link
-							>
-							<router-link @click="scrollToTop()" to="/politique-cookie"
-								>Politique de cookies</router-link
-							>
-							<router-link @click="scrollToTop()" to="/mention-legales"
-								>Mentions Légales</router-link
-							>
+							<router-link @click="scrollToTop()" to="/politique-confidentialite">Politique de confidentialité</router-link>
+							<router-link @click="scrollToTop()" to="/politique-cookie">Politique de cookies</router-link>
+							<router-link @click="scrollToTop()" to="/mention-legales">Mentions Légales</router-link>
 						</div>
 						<div class="row special-width">
 							<h4>À propos</h4>
 							<p>
-								Paladins French Tournament est basé en France, créé par des
-								joueurs pour des joueurs, à l’écoute de la communauté afin de
-								faire perdurer Paladins !.
+								Paladins French Tournament est basé en France, créé par des joueurs pour des joueurs, à l’écoute de la communauté afin de faire
+								perdurer Paladins !.
 							</p>
 						</div>
 					</div>
@@ -95,5 +76,34 @@ a {
 }
 .ml-60 {
 	margin-left: 60px;
+}
+@media screen and (max-width: 1100px) {
+	.item-align-center {
+		flex-direction: column-reverse;
+		img {
+			margin-top: 32px;
+		}
+	}
+	.background-black {
+		padding: 40px 0;
+	}
+	.ml-60 {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 580px) {
+	.ml-60 {
+		flex-direction: column;
+	}
+	.special-width {
+		width: inherit;
+	}
+	.row {
+		text-align: center;
+		margin-bottom: 16px;
+	}
+	.background-black {
+		padding: 24px 0;
+	}
 }
 </style>
