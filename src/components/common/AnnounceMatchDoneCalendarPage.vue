@@ -1,6 +1,6 @@
 <template>
 	<div class="d-flex background-main card item-align-center">
-		<div class="d-flex item-align-center">
+		<div class="d-flex item-align-center column">
 			<div class="d-flex item-align-center match-detail">
 				<div>
 					<img src="../../assets/LogoAnnounceMatch/fnatic.png" alt="" />
@@ -102,6 +102,39 @@ h5 {
 		font-size: 14px;
 		text-transform: uppercase;
 		padding: 12px 10px;
+	}
+}
+@media screen and (max-width: 1070px) {
+	.background-main {
+		flex-direction: column;
+		.line {
+			width: 208px;
+			height: 1px;
+			margin: 38px 0;
+		}
+		h4 {
+			text-align: center;
+		}
+		p.black {
+			text-align: center;
+		}
+		.button {
+			margin-top: 28px;
+		}
+	}
+	.column {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 450px) {
+	.match-detail {
+		flex-direction: column;
+		h3 {
+			margin-top: 12px;
+		}
+		.red {
+			margin: 24px 0;
+		}
 	}
 }
 </style>

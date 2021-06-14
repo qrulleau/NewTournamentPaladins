@@ -11,16 +11,10 @@
 				<h3>VS</h3>
 				<h4 class="orange">Regarder le match</h4>
 				<div class="d-flex">
-					<a
-						href="https://www.twitch.tv/paladinsfrenchtournament"
-						target="_blank"
-					>
+					<a href="https://www.twitch.tv/paladinsfrenchtournament" target="_blank">
 						<i class="fab fa-twitch red"></i>
 					</a>
-					<a
-						href="https://www.youtube.com/channel/UCvp93_l5E8GValdzstpcXeA"
-						target="_blank"
-					>
+					<a href="https://www.youtube.com/channel/UCvp93_l5E8GValdzstpcXeA" target="_blank">
 						<i class="fab fa-youtube red"></i>
 					</a>
 				</div>
@@ -81,5 +75,23 @@ i:hover {
 	background: linear-gradient(180deg, #c5400f 0%, #b91911 100%);
 	transition: 350ms;
 	color: white;
+}
+@media screen and (max-width: 1375px) {
+	.width {
+		width: calc(100% - 30px);
+	}
+}
+@media screen and (max-width: 1200px) {
+	.background-blue {
+		padding: 28px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.background-blue {
+		flex-direction: column;
+	}
+	.description {
+		margin: 32px 0;
+	}
 }
 </style>
