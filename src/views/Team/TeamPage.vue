@@ -41,9 +41,9 @@
 							RolePlayer3="Tank"
 							Player4="Zrp73"
 							RolePlayer4="DPS"
-							Player5="Terichess"
+							Player5="Major Blaze5151"
 							RolePlayer5="Tank"
-							Sub1="Nøctali"
+							Sub1="Yasayna"
 							RoleSub1="Sub"
 							Sub2="AlarmeColver"
 							RoleSub2="Sub"
@@ -64,7 +64,7 @@
 							RoleSub1="Sub"
 						/>
 						<TeamCard
-							TeamName="AdbulJoestar"
+							TeamName="Adbul Joestar"
 							Player1="Frzo"
 							RolePlayer1="Flex"
 							Player2="Etsuuu"
@@ -145,10 +145,8 @@
 							RolePlayer4="Heal"
 							Player5="Balhrog"
 							RolePlayer5="Tank"
-							Sub1="Némësys"
+							Sub1="Frost78"
 							RoleSub1="Sub"
-							Sub2="Frost78"
-							RoleSub2="Sub"
 						/>
 					</div>
 				</section>
