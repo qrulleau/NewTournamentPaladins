@@ -163,7 +163,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>FLAASHOU</h4>
 										<p class="red">DPS</p>

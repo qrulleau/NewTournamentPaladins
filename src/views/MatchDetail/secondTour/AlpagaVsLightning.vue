@@ -114,7 +114,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/saphir.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Sàphiir</h4>
 										<p class="red">Sub</p>

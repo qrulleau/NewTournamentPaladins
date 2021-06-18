@@ -154,7 +154,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/aymeshin.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Aymeshin</h4>
 										<p class="red">DPS</p>

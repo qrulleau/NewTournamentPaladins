@@ -26,7 +26,6 @@
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center">
-							<img src="../../assets/LogoDetailMatch/fnatic.png" alt="" />
 							<div class="description-team">
 								<h5 class="text-right">fnatic</h5>
 								<p class="grey">Champion du monde 2017</p>
