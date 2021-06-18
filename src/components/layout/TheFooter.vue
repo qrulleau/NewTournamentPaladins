@@ -57,6 +57,24 @@ export default {
 .row {
 	a {
 		display: block;
+		position: relative;
+		padding-bottom: 12px;
+	}
+	a:after {
+		background: none repeat scroll 0 0 transparent;
+		bottom: 0;
+		content: '';
+		display: block;
+		height: 2px;
+		left: 50%;
+		position: absolute;
+		background: #fff;
+		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+		width: 0;
+	}
+	a:hover:after {
+		width: 100%;
+		left: 0;
 	}
 }
 .special-width {
@@ -66,7 +84,7 @@ h4 {
 	margin-bottom: 36px;
 }
 a {
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 }
 .copyright {
 	margin-top: 80px;

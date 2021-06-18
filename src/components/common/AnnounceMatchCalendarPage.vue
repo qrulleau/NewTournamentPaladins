@@ -2,20 +2,18 @@
 	<div class="d-flex background-main card item-align-center">
 		<div class="d-flex item-align-center column">
 			<div class="d-flex item-align-center match-detail">
-				<div>
-					<img src="../../assets/LogoAnnounceMatch/fnatic.png" alt="" />
-					<h3 class="text-center">FNATIC</h3>
+				<div class="width">
+					<h3 class="text-center">{{ teamName }}</h3>
 				</div>
 				<p class="red">VS</p>
-				<div>
-					<img src="../../assets/LogoAnnounceMatch/navi.png" alt="" />
-					<h3 class="text-center">NAVI</h3>
+				<div class="width-team">
+					<h3 class="text-center">{{ teamName1 }}</h3>
 				</div>
 			</div>
 			<span class="line"></span>
 			<div>
 				<h4>Champion League of Paladins</h4>
-				<p class="black">16 juin à 21h</p>
+				<p class="black">{{ date }}</p>
 			</div>
 			<span class="line"></span>
 			<div>
@@ -25,7 +23,7 @@
 			</div>
 		</div>
 		<div class="button">
-			<router-link to="/match-detail">
+			<router-link :to="link">
 				<div class="d-flex item-align-center">
 					Voir Le match
 					<i class="fas fa-arrow-right"></i>
@@ -36,7 +34,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+	props: ['teamName', 'teamName1', 'urlTeamLogo', 'urlTeamLogo1', 'date', 'link'],
+};
 </script>
 
 <style lang="scss" scoped>
@@ -53,9 +53,6 @@ span.line {
 span:last-child {
 	margin-left: 44px;
 }
-h3 {
-	margin-top: 20px;
-}
 h4 {
 	margin-bottom: 12px;
 }
@@ -71,13 +68,16 @@ h5 {
 	color: #c5400f;
 	transition: 300ms;
 }
-.match-detail p {
-	font-weight: bold;
-	padding: 13px 12px;
-	background-color: white;
-	border: 3px solid #dcd7d7;
-	border-radius: 40px;
-	margin: 0 60px;
+.match-detail {
+	width: 46%;
+	p {
+		font-weight: bold;
+		padding: 13px 12px;
+		background-color: white;
+		border: 3px solid #dcd7d7;
+		border-radius: 40px;
+		margin: 0 60px;
+	}
 }
 .fa-twitch {
 	border: 1px solid white;
@@ -104,6 +104,13 @@ h5 {
 		padding: 12px 10px;
 	}
 }
+.column {
+	width: 61%;
+}
+.width,
+.width-team {
+	width: 49%;
+}
 @media screen and (max-width: 1070px) {
 	.background-main {
 		flex-direction: column;
@@ -111,6 +118,9 @@ h5 {
 			width: 208px;
 			height: 1px;
 			margin: 38px 0;
+		}
+		.match-detail {
+			width: 100%;
 		}
 		h4 {
 			text-align: center;
@@ -124,6 +134,11 @@ h5 {
 	}
 	.column {
 		flex-direction: column;
+	}
+}
+@media screen and (max-width: 690px) {
+	.column {
+		width: 100%;
 	}
 }
 @media screen and (max-width: 450px) {
