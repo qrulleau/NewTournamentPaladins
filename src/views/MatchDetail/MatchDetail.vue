@@ -20,14 +20,12 @@
 								<h5>NAVI</h5>
 								<p class="grey">Champion du monde 2018</p>
 							</div>
-							<img src="../../assets/LogoDetailMatch/navi.png" alt="" />
 						</div>
 						<div class="text-center schedule">
 							<p>16 juin vendredi 23h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
-							<img src="../../assets/LogoDetailMatch/fnatic.png" alt="" />
 							<div class="description-team">
 								<h5 class="text-right">fnatic</h5>
 								<p class="grey">Champion du monde 2017</p>

@@ -19,14 +19,12 @@
 							<div class="description-team">
 								<h5>Jobless</h5>
 							</div>
-							<img src="../../assets/LogoDetailMatch/navi.png" alt="" />
 						</div>
 						<div class="text-center schedule">
 							<p>19 juin samedi 14h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
-							<img src="../../assets/LogoDetailMatch/fnatic.png" alt="" />
 							<div class="description-team">
 								<h5 class="text-right">Lightning</h5>
 							</div>
@@ -185,7 +183,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/yasaina.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>AlarmeColver</h4>
 										<p class="red">Sub</p>
