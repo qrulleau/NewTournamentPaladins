@@ -63,7 +63,7 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/pettiote.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Pettiote</h4>
 										<p class="red">Healeuse</p>
@@ -72,7 +72,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/dinopierre.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Dinopierre</h4>
 										<p class="red">DPS</p>
@@ -81,7 +81,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/lystale.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Lystale</h4>
 										<p class="red">DPS</p>
@@ -90,7 +90,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/kitara.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Kitara</h4>
 										<p class="red">Flex</p>
@@ -99,7 +99,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/moutonPower.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Mouton Power</h4>
 										<p class="red">Tank</p>
@@ -112,7 +112,7 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/kurt.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Kurt</h4>
 										<p class="red">Tank</p>
@@ -121,7 +121,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/kurofs.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>KuroFS</h4>
 										<p class="red">Healeur</p>
@@ -130,7 +130,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/ottoo.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Ottooo</h4>
 										<p class="red">Tank</p>
@@ -139,7 +139,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/maurice.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Maurice</h4>
 										<p class="red">DPS</p>
@@ -148,7 +148,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../assets/ProfilPlayer/mowgli.jpg" alt="" />
+									<img src="" alt="" />
 									<div class="position-absolute">
 										<h4>Mowgli</h4>
 										<p class="red">DPS</p>
