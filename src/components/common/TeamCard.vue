@@ -1,33 +1,35 @@
 <template>
 	<div class="background-main box">
 		<h3 class="text-center">{{ TeamName }}</h3>
-		<div class="d-flex">
-			<p>{{ Player1 }}</p>
-			<p class="role black">{{ RolePlayer1 }}</p>
-		</div>
-		<div class="d-flex">
-			<p>{{ Player2 }}</p>
-			<p class="role black">{{ RolePlayer2 }}</p>
-		</div>
-		<div class="d-flex">
-			<p>{{ Player3 }}</p>
-			<p class="role black">{{ RolePlayer3 }}</p>
-		</div>
-		<div class="d-flex">
-			<p>{{ Player4 }}</p>
-			<p class="role black">{{ RolePlayer4 }}</p>
-		</div>
-		<div class="d-flex">
-			<p>{{ Player5 }}</p>
-			<p class="role black">{{ RolePlayer5 }}</p>
-		</div>
-		<div class="d-flex">
-			<p>{{ Sub1 }}</p>
-			<p class="role black">{{ RoleSub1 }}</p>
-		</div>
-		<div class="d-flex no-margin">
-			<p>{{ Sub2 }}</p>
-			<p class="role black">{{ RoleSub2 }}</p>
+		<div>
+			<div class="d-flex">
+				<p>{{ Player1 }}</p>
+				<p class="role black">{{ RolePlayer1 }}</p>
+			</div>
+			<div class="d-flex">
+				<p>{{ Player2 }}</p>
+				<p class="role black">{{ RolePlayer2 }}</p>
+			</div>
+			<div class="d-flex">
+				<p>{{ Player3 }}</p>
+				<p class="role black">{{ RolePlayer3 }}</p>
+			</div>
+			<div class="d-flex">
+				<p>{{ Player4 }}</p>
+				<p class="role black">{{ RolePlayer4 }}</p>
+			</div>
+			<div class="d-flex">
+				<p>{{ Player5 }}</p>
+				<p class="role black">{{ RolePlayer5 }}</p>
+			</div>
+			<div class="d-flex">
+				<p>{{ Sub1 }}</p>
+				<p class="role black">{{ RoleSub1 }}</p>
+			</div>
+			<div class="d-flex no-margin">
+				<p>{{ Sub2 }}</p>
+				<p class="role black">{{ RoleSub2 }}</p>
+			</div>
 		</div>
 		<div class="d-flex social-network flex-start">
 			<i class="fab fa-twitter"></i>
@@ -89,6 +91,9 @@ export default {
 	border-radius: 25px;
 	padding: 28px 20px 30px 20px;
 	width: 288px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	h3 {
 		margin-bottom: 48px;
 		font-size: 24px;
