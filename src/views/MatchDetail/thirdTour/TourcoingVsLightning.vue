@@ -112,6 +112,15 @@
 									</div>
 								</div>
 							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Tourcoing/mouton.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>MoutonPower</h4>
+										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</section>
 					<section v-if="CurrentTeam === 'SecondTeam'">

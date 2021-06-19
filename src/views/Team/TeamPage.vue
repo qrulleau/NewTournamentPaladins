@@ -147,6 +147,8 @@
 							RolePlayer5="Tank"
 							Sub1="Frost78"
 							RoleSub1="Sub"
+							Sub2="MoutonPower"
+							RoleSub2="Sub"
 						/>
 					</div>
 				</section>
