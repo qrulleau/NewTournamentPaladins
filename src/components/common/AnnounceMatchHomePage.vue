@@ -2,12 +2,11 @@
 	<div class="width">
 		<div class="d-flex background-blue item-align-center">
 			<div class="Team">
-				<img src="../../assets/LogoTeam/navi.png" alt="" />
-				<h5>NAVI</h5>
+				<h5>{{ team }}</h5>
 			</div>
 			<div class="description">
-				<h2>Amsterdam game center</h2>
-				<p class="red">20 mars, 2020 14:30</p>
+				<h2>ONLINE</h2>
+				<p class="red">{{ date }}</p>
 				<h3>VS</h3>
 				<h4 class="orange">Regarder le match</h4>
 				<div class="d-flex">
@@ -20,15 +19,16 @@
 				</div>
 			</div>
 			<div>
-				<img src="../../assets/LogoTeam/fnatic.png" alt="" />
-				<h5>FNATIC</h5>
+				<h5>{{ team1 }}</h5>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
-export default {};
+export default {
+	props: ['team', 'team1', 'date'],
+};
 </script>
 
 <style lang="scss" scoped>
@@ -52,7 +52,7 @@ h4 {
 }
 h5 {
 	font-weight: bold;
-	margin-top: 36px;
+	font-size: 28px;
 }
 h3 {
 	font-size: 36px;

@@ -61,7 +61,7 @@
 									<img src="../../../assets/ProfilPlayer/Alpaga/snayz.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Snaýz</h4>
-										<p class="red">Healeuse</p>
+										<p class="red">Flex</p>
 									</div>
 								</div>
 							</div>
