@@ -183,7 +183,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/alarme.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>AlarmeColver</h4>
 										<p class="red">Sub</p>
