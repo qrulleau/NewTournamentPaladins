@@ -32,8 +32,12 @@
 			</div>
 		</div>
 		<div class="d-flex social-network flex-start">
-			<i class="fab fa-twitter"></i>
-			<i class="fab fa-twitch"></i>
+			<a :href="linkTwitter">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a :href="linkTwitch">
+				<i class="fab fa-twitch"></i>
+			</a>
 		</div>
 	</div>
 </template>
@@ -56,6 +60,8 @@ export default {
 		'RoleSub1',
 		'Sub2',
 		'RoleSub2',
+		'linkTwitter',
+		'linkTwitch',
 	],
 };
 </script>
