@@ -42,16 +42,16 @@
 										<div class="d-flex item-align-center">
 											<div>
 												<p class="black team-name">
-													CONTACT<br />
-													BLANC
+													TOURCOING<br />
+													ETERNAL
 												</p>
 											</div>
 											<div class="black text-center">
 												<p class="orange">Match à venir</p>
-												<p class="black">20/12/2021</p>
+												<p class="black">19/06/2021</p>
 											</div>
 											<div>
-												<p class="black team-name">SYLICAL</p>
+												<p class="black team-name">ALPAGA</p>
 											</div>
 										</div>
 									</div>
@@ -122,10 +122,10 @@
 				<div class="d-flex text-center">
 					<div class="stats">
 						<h3>0</h3>
-						<p>Youtube stream</p>
+						<p>Vues Youtube</p>
 					</div>
 					<div class="stats">
-						<h3>0</h3>
+						<h3>8</h3>
 						<p>Teams</p>
 					</div>
 					<div class="stats">
@@ -168,9 +168,9 @@
 			<div class="text-center">
 				<h3 class="red">Champions League of Paladins</h3>
 				<h4>FUTURES MATCH</h4>
-				<AnnounceMatch />
-				<AnnounceMatch />
-				<AnnounceMatch />
+				<AnnounceMatch team="Minerva" team1="abdul joestar" date="19 mars, 2021 14:00" />
+				<AnnounceMatch team="Sylical" team1="GPT E-sport" date="19 mars, 2021 14:00" />
+				<AnnounceMatch team="Jobless" team1="lightning" date="19 mars, 2021 14:00" />
 				<div class="pt-36 text-center">
 					<router-link to="/calendrier" class="background-main">En voir plus</router-link>
 				</div>
