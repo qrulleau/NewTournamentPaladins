@@ -30,6 +30,8 @@
 							RoleSub1="Sub"
 							Sub2="LucasDrifter"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/tobothebigburger"
+							linkTwitter="#"
 						/>
 						<TeamCard
 							TeamName="LIGHTNING"
@@ -47,6 +49,8 @@
 							RoleSub1="Sub"
 							Sub2="AlarmeColver"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/arcangamingg"
+							linkTwitter="#"
 						/>
 						<TeamCard
 							TeamName="MINERVA"
@@ -62,6 +66,8 @@
 							RolePlayer5="DPS"
 							Sub1="Metroidgamer45"
 							RoleSub1="Sub"
+							linkTwitch="#"
+							linkTwitter="#"
 						/>
 						<TeamCard
 							TeamName="Adbul Joestar"
@@ -79,6 +85,8 @@
 							RoleSub1="Sub"
 							Sub2="Némësys"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/etsuuuuuuu"
+							linkTwitter="https://twitter.com/etsuuu6"
 						/>
 					</div>
 					<div class="d-flex margin">
@@ -98,6 +106,8 @@
 							RoleSub1="Sub"
 							Sub2="XxBenjiGamerxX"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/paradioxe"
+							linkTwitter="https://twitter.com/Paradioxe"
 						/>
 						<TeamCard
 							TeamName="Alpaga"
@@ -115,6 +125,8 @@
 							RoleSub1="Sub"
 							Sub2="Sàphiir"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/neiiige_"
+							linkTwitter="https://twitter.com/snayzzzz"
 						/>
 						<TeamCard
 							TeamName="Sylical"
@@ -132,6 +144,8 @@
 							RoleSub1="Sub"
 							Sub2="BestKindredEU"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/sylicaltv"
+							linkTwitter="https://twitter.com/OrgSylicaL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
 						/>
 						<TeamCard
 							TeamName="Tourcoing Eternals"
@@ -149,6 +163,8 @@
 							RoleSub1="Sub"
 							Sub2="MoutonPower"
 							RoleSub2="Sub"
+							linkTwitch="https://www.twitch.tv/dinopierre"
+							linkTwitter="https://twitter.com/KeemaOfficiel"
 						/>
 					</div>
 				</section>
