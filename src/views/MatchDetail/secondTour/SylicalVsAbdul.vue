@@ -154,7 +154,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Otev</h4>
 										<p class="red">DPS</p>
