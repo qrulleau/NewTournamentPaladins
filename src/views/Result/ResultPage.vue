@@ -10,12 +10,9 @@
 				<option value="ChampionsLeague">Champions League of Paladins</option>
 			</select>
 		</div>
-		<!-- <section v-show="TournamentChoice === 'ChampionsLeague'">
+		<section v-show="TournamentChoice === 'ChampionsLeague'">
 			<ResultCard />
-			<ResultCard />
-			<ResultCard />
-			<ResultCard />
-		</section> -->
+		</section>
 	</div>
 	<FooterNav />
 </template>

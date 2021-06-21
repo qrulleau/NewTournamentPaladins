@@ -21,16 +21,118 @@
 		<div class="body">
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Contact Blanc</p>
+					<p>ABDUL JOESTAR</p>
 				</div>
 				<div class="game-played">
-					<p>1</p>
+					<p>6</p>
+				</div>
+				<div class="game-lost">
+					<p>0</p>
+				</div>
+				<div class="game-win">
+					<p>6</p>
+				</div>
+				<div class="point">
+					<p>6</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>ALPAGA</p>
+				</div>
+				<div class="game-played">
+					<p>6</p>
+				</div>
+				<div class="game-lost">
+					<p>0</p>
+				</div>
+				<div class="game-win">
+					<p>6</p>
+				</div>
+				<div class="point">
+					<p>6</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>SYLICAL</p>
+				</div>
+				<div class="game-played">
+					<p>6</p>
 				</div>
 				<div class="game-lost">
 					<p>2</p>
 				</div>
 				<div class="game-win">
+					<p>4</p>
+				</div>
+				<div class="point">
+					<p>4</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>TOURCOING ETERNALS</p>
+				</div>
+				<div class="game-played">
+					<p>7</p>
+				</div>
+				<div class="game-lost">
 					<p>3</p>
+				</div>
+				<div class="game-win">
+					<p>4</p>
+				</div>
+				<div class="point">
+					<p>4</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>GPT E-SPORT</p>
+				</div>
+				<div class="game-played">
+					<p>6</p>
+				</div>
+				<div class="game-lost">
+					<p>4</p>
+				</div>
+				<div class="game-win">
+					<p>2</p>
+				</div>
+				<div class="point">
+					<p>2</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>JOBLESS</p>
+				</div>
+				<div class="game-played">
+					<p>6</p>
+				</div>
+				<div class="game-lost">
+					<p>4</p>
+				</div>
+				<div class="game-win">
+					<p>2</p>
+				</div>
+				<div class="point">
+					<p>2</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>MINERVA</p>
+				</div>
+				<div class="game-played">
+					<p>7</p>
+				</div>
+				<div class="game-lost">
+					<p>6</p>
+				</div>
+				<div class="game-win">
+					<p>1</p>
 				</div>
 				<div class="point">
 					<p>1</p>
@@ -38,53 +140,19 @@
 			</div>
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>Chocolatine</p>
+					<p>LIGHTNING</p>
 				</div>
 				<div class="game-played">
-					<p>1</p>
+					<p>6</p>
 				</div>
 				<div class="game-lost">
-					<p>2</p>
+					<p>6</p>
 				</div>
 				<div class="game-win">
-					<p>3</p>
+					<p>0</p>
 				</div>
 				<div class="point">
-					<p>1</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>Sylical</p>
-				</div>
-				<div class="game-played">
-					<p>1</p>
-				</div>
-				<div class="game-lost">
-					<p>2</p>
-				</div>
-				<div class="game-win">
-					<p>3</p>
-				</div>
-				<div class="point">
-					<p>1</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>Viper Solar</p>
-				</div>
-				<div class="game-played">
-					<p>1</p>
-				</div>
-				<div class="game-lost">
-					<p>2</p>
-				</div>
-				<div class="game-win">
-					<p>3</p>
-				</div>
-				<div class="point">
-					<p>1</p>
+					<p>0</p>
 				</div>
 			</div>
 		</div>
