@@ -5,6 +5,9 @@
 			<div class="club">
 				<h4>Equipes</h4>
 			</div>
+			<div class="bo-win">
+				<h4>BO gagné</h4>
+			</div>
 			<div class="game-played">
 				<h4>Matchs joués</h4>
 			</div>
@@ -23,6 +26,9 @@
 				<div class="club">
 					<p>ABDUL JOESTAR</p>
 				</div>
+				<div class="bo-win">
+					<p>3</p>
+				</div>
 				<div class="game-played">
 					<p>6</p>
 				</div>
@@ -39,6 +45,9 @@
 			<div class="d-flex stats-game">
 				<div class="club">
 					<p>ALPAGA</p>
+				</div>
+				<div class="bo-win">
+					<p>3</p>
 				</div>
 				<div class="game-played">
 					<p>6</p>
@@ -57,6 +66,9 @@
 				<div class="club">
 					<p>SYLICAL</p>
 				</div>
+				<div class="bo-win">
+					<p>2</p>
+				</div>
 				<div class="game-played">
 					<p>6</p>
 				</div>
@@ -73,6 +85,9 @@
 			<div class="d-flex stats-game">
 				<div class="club">
 					<p>TOURCOING ETERNALS</p>
+				</div>
+				<div class="bo-win">
+					<p>2</p>
 				</div>
 				<div class="game-played">
 					<p>7</p>
@@ -91,6 +106,9 @@
 				<div class="club">
 					<p>GPT E-SPORT</p>
 				</div>
+				<div class="bo-win">
+					<p>1</p>
+				</div>
 				<div class="game-played">
 					<p>6</p>
 				</div>
@@ -107,6 +125,9 @@
 			<div class="d-flex stats-game">
 				<div class="club">
 					<p>JOBLESS</p>
+				</div>
+				<div class="bo-win">
+					<p>1</p>
 				</div>
 				<div class="game-played">
 					<p>6</p>
@@ -125,6 +146,9 @@
 				<div class="club">
 					<p>MINERVA</p>
 				</div>
+				<div class="bo-win">
+					<p>0</p>
+				</div>
 				<div class="game-played">
 					<p>7</p>
 				</div>
@@ -141,6 +165,9 @@
 			<div class="d-flex stats-game">
 				<div class="club">
 					<p>LIGHTNING</p>
+				</div>
+				<div class="bo-win">
+					<p>0</p>
 				</div>
 				<div class="game-played">
 					<p>6</p>
@@ -175,7 +202,7 @@ h3 {
 }
 .card {
 	padding: 28px;
-	width: 1147px;
+	width: 1300px;
 	margin: 0 auto 36px auto;
 	border-radius: 11px;
 }
@@ -184,10 +211,14 @@ h3 {
 }
 .club {
 	width: 45%;
+	p {
+		padding-left: 16px;
+	}
 }
 .game-played,
 .game-win,
-.game-lost {
+.game-lost,
+.bo-win {
 	width: 15%;
 	text-align: center;
 }
@@ -199,7 +230,6 @@ h3 {
 	border-bottom: 1px solid #000000;
 	padding-bottom: 16px;
 	margin-bottom: 20px;
-	padding-left: 16px;
 }
 .stats-game:last-child {
 	border-bottom: none;
