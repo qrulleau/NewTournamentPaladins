@@ -26,7 +26,7 @@
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">Tourcoing Eternal</h5>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Abdul Joestar</a
+							>Tourcoing Eternal</a
 						>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
@@ -118,46 +118,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/dinopierre.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frzo</h4>
+										<h4>Dinopierre</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Tourcoing/lerazo.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Lerazo</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Tourcoing/keema.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Keema</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Tourcoing/bang.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>BANG</h4>
 										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/etsuuu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/balhrog.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Etsuuu</h4>
-										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nowkh.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>NOWKH</h4>
+										<h4>Balhrog</h4>
 										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Otev</h4>
-										<p class="red">DPS</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>FLAASHOU</h4>
-										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
@@ -165,19 +165,51 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/ladji.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/frost.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Ladji</h4>
+										<h4>Frost78</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nemesys.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/mouton.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Némësys</h4>
+										<h4>MoutonPower</h4>
 										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="map">
+						<h3 class="underline-red">Map</h3>
+						<div class="d-flex">
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/stoneKeep.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Donjon de pierre</h4>
+										<p class="orange">Remporté par Tourcoing Eternal</p>
+									</div>
+								</div>
+							</div>
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/mangrove.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mangrove</h4>
+										<p class="orange">Remporté par Minerva</p>
+									</div>
+								</div>
+							</div>
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/carriere.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Carriere</h4>
+										<p class="orange">Remporté par Tourcoing Eternal</p>
 									</div>
 								</div>
 							</div>

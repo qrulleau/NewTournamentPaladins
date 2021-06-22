@@ -17,7 +17,7 @@
 					<div class="d-flex item-align-center">
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5>Minerva</h5>
+								<h5>GPT E-sport</h5>
 							</div>
 						</div>
 						<div class="text-center schedule">
@@ -43,7 +43,7 @@
 								toggle();
 								[(CurrentTeam = 'FirstTeam')];
 							"
-							>Minerva</a
+							>GPT E-sport</a
 						>
 						<a
 							:class="!isActive ? 'active' : ''"
@@ -58,46 +58,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/pharmaceutique.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/potato.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Pharmaceutique</h4>
-										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/zikouz.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>zikouz</h4>
-										<p class="red">DPS</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/genesect.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Genesect500</h4>
-										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/cartix.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Cartix777</h4>
+										<h4>PotatoHunterz</h4>
 										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/tobo.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Wyseer</h4>
+										<h4>Tobo14</h4>
+										<p class="red">flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/GPT/midorino.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>MidoriNoO</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/GPT/alpha.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Alpha867</h4>
 										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/GPT/lastguadian.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>TheLastGuadian</h4>
+										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
@@ -105,9 +105,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/metroid.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/lorminator.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Metroidgamer45</h4>
+										<h4>Lorminator2001</h4>
+										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/GPT/lucas.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>LucasDrifter</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
@@ -207,7 +216,7 @@ export default {
 	methods: {
 		toggle() {
 			this.isActive = !this.isActive;
-			console.log(this.CurrentTeam);
+			// console.log(this.CurrentTeam);
 		},
 	},
 };

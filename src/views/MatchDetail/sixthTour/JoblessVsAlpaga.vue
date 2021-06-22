@@ -17,16 +17,16 @@
 					<div class="d-flex item-align-center">
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5>Minerva</h5>
+								<h5>Jobless</h5>
 							</div>
 						</div>
 						<div class="text-center schedule">
-							<p>19 juin samedi 14h00</p>
+							<p>27 juin samedi 14h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">Lightning</h5>
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 								toggle();
 								[(CurrentTeam = 'FirstTeam')];
 							"
-							>Minerva</a
+							>Jobless</a
 						>
 						<a
 							:class="!isActive ? 'active' : ''"
@@ -51,52 +51,52 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Abdul Joestar</a
+							>Alpaga</a
 						>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/pharmaceutique.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/arzen.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Pharmaceutique</h4>
-										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/zikouz.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>zikouz</h4>
+										<h4>Arzën</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/genesect.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/oxygen.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Genesect500</h4>
-										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/cartix.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Cartix777</h4>
+										<h4>Oxygen</h4>
 										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/paradioxe.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Wyseer</h4>
+										<h4>Parazigod</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Jobless/nbarcode.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>SOOOOOOOON</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Jobless/ryzer.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>CodryzerTTV</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
@@ -105,9 +105,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/metroid.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/mowgli.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Metroidgamer45</h4>
+										<h4>Møugli</h4>
+										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>XxBenjiGamerxX</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
@@ -118,46 +127,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/snayz.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frzo</h4>
-										<p class="red">Heal</p>
+										<h4>Snaýz</h4>
+										<p class="red">Flex</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/etsuuu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/basicbot.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Etsuuu</h4>
-										<p class="red">Healeur</p>
+										<h4>BasicBotPlayer</h4>
+										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nowkh.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/nemesys.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>NOWKH</h4>
+										<h4>Némësys</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/eclat.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Eclaat</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/envel.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>envel8</h4>
 										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Otev</h4>
-										<p class="red">DPS</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>FLAASHOU</h4>
-										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
@@ -165,18 +174,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/ladji.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/vespalia.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Ladji</h4>
+										<h4>Vespalia</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nemesys.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/saphir.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Némësys</h4>
+										<h4>Sàphiir</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>

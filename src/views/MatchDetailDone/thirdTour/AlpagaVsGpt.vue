@@ -17,7 +17,7 @@
 					<div class="d-flex item-align-center">
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5>Minerva</h5>
+								<h5>Alpaga</h5>
 							</div>
 						</div>
 						<div class="text-center schedule">
@@ -26,12 +26,13 @@
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">GPT E-SPORT</h5>
 							</div>
 						</div>
 					</div>
 					<div class="text-center result">
 						<p class="orange">Résultat Final</p>
+						<p class="score">2 - 0</p>
 					</div>
 				</div>
 				<section id="team">
@@ -43,7 +44,7 @@
 								toggle();
 								[(CurrentTeam = 'FirstTeam')];
 							"
-							>Minerva</a
+							>Alpaga</a
 						>
 						<a
 							:class="!isActive ? 'active' : ''"
@@ -51,53 +52,53 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Abdul Joestar</a
+							>GPT E-SPORT</a
 						>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/pharmaceutique.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/snayz.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Pharmaceutique</h4>
-										<p class="red">Healeur</p>
+										<h4>Snaýz</h4>
+										<p class="red">Flex</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/zikouz.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/basicbot.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>zikouz</h4>
+										<h4>BasicBotPlayer</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/genesect.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/nemesys.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Genesect500</h4>
+										<h4>Némësys</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/eclat.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Eclaat</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/envel.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>envel8</h4>
 										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/cartix.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Cartix777</h4>
-										<p class="red">Heal</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Wyseer</h4>
-										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
@@ -105,9 +106,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/metroid.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/vespalia.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Metroidgamer45</h4>
+										<h4>Vespalia</h4>
+										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/saphir.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Sàphiir</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
@@ -118,46 +128,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/potato.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frzo</h4>
+										<h4>PotatoHunterz</h4>
 										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/etsuuu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/tobo.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Etsuuu</h4>
-										<p class="red">Healeur</p>
+										<h4>Tobo14</h4>
+										<p class="red">flex</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nowkh.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/midorino.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>NOWKH</h4>
+										<h4>MidoriNoO</h4>
 										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/alpha.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Otev</h4>
+										<h4>Alpha867</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/lastguadian.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>FLAASHOU</h4>
-										<p class="red">DPS</p>
+										<h4>TheLastGuadian</h4>
+										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
@@ -165,19 +175,42 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/ladji.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/lorminator.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Ladji</h4>
+										<h4>Lorminator2001</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nemesys.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/GPT/lucas.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Némësys</h4>
+										<h4>LucasDrifter</h4>
 										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="map">
+						<h3 class="underline-red">Map</h3>
+						<div class="d-flex">
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/mineGele.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mine gelée</h4>
+										<p class="orange">Remporté par Alpaga</p>
+									</div>
+								</div>
+							</div>
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/mangrove.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mangrove</h4>
+										<p class="orange">Remporté par Alpaga</p>
 									</div>
 								</div>
 							</div>
@@ -342,6 +375,20 @@ a.active {
 	font-weight: 900;
 	padding-bottom: 8px;
 	border-bottom: 4px solid #b91911;
+}
+section#map {
+	padding-bottom: 60px;
+	h3 {
+		margin: 40px 0;
+	}
+}
+section#map {
+	.d-flex {
+		justify-content: flex-start;
+		.map-games:last-child {
+			margin-left: 25.5px;
+		}
+	}
 }
 @media screen and (max-width: 1230px) {
 	.container-body {

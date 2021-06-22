@@ -58,7 +58,7 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/arzen.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Arzën</h4>
 										<p class="red">DPS</p>

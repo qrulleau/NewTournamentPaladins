@@ -17,7 +17,7 @@
 					<div class="d-flex item-align-center">
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5>Minerva</h5>
+								<h5>Sylical</h5>
 							</div>
 						</div>
 						<div class="text-center schedule">
@@ -26,7 +26,7 @@
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">Abdul Joestar</h5>
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 								toggle();
 								[(CurrentTeam = 'FirstTeam')];
 							"
-							>Minerva</a
+							>Sylical</a
 						>
 						<a
 							:class="!isActive ? 'active' : ''"
@@ -58,37 +58,10 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/pharmaceutique.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/kurofs.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Pharmaceutique</h4>
+										<h4>KuroFS</h4>
 										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/zikouz.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>zikouz</h4>
-										<p class="red">DPS</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/genesect.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Genesect500</h4>
-										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/cartix.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Cartix777</h4>
-										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
@@ -96,7 +69,34 @@
 								<div class="position-relative">
 									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Wyseer</h4>
+										<h4>Azorare</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Sylical/kosmic.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Kosmic</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Sylical/mowgli.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Møugli</h4>
+										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Sylical/aymeshin.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Aymeshin</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
@@ -105,9 +105,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Minerva/metroid.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/kitara.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Metroidgamer45</h4>
+										<h4>kitaraaaa</h4>
+										<p class="red">Sub</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Sylical/saf.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>BestKindredEU</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
@@ -183,6 +192,29 @@
 							</div>
 						</div>
 					</section>
+					<section id="map">
+						<h3 class="underline-red">Map</h3>
+						<div class="d-flex">
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/carriere.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Donjon de pierre</h4>
+										<p class="orange">Remporté par Abdul Joestar</p>
+									</div>
+								</div>
+							</div>
+							<div class="map-games">
+								<div class="position-relative">
+									<img src="../../../assets/Map/mangrove.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Mangrove</h4>
+										<p class="orange">Remporté par Abdul Joestar</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</section>
 			</div>
 		</div>
@@ -229,13 +261,7 @@ export default {
 		margin-bottom: 32px;
 	}
 }
-.sub {
-	margin-top: 20px;
-	justify-content: flex-start;
-	.player-profil:nth-child(2) {
-		margin-left: 16px;
-	}
-}
+
 .background-image {
 	background-image: url('https://i.ibb.co/8gsyjC4/Match-Detail-Page.png');
 	background-repeat: no-repeat;
@@ -311,6 +337,13 @@ a:last-child {
 a.active {
 	color: white;
 }
+.sub {
+	margin-top: 20px;
+	justify-content: flex-start;
+	.player-profil:nth-child(2) {
+		margin-left: 16px;
+	}
+}
 .container-body {
 	width: 1200px;
 	margin: 120px auto 0 auto;
@@ -342,6 +375,12 @@ a.active {
 	font-weight: 900;
 	padding-bottom: 8px;
 	border-bottom: 4px solid #b91911;
+}
+section#map .d-flex {
+	justify-content: flex-start;
+	.map-games:last-child {
+		margin-left: 25.5px;
+	}
 }
 @media screen and (max-width: 1230px) {
 	.container-body {

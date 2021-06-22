@@ -21,12 +21,12 @@
 							</div>
 						</div>
 						<div class="text-center schedule">
-							<p>19 juin samedi 14h00</p>
+							<p>26 juin samedi 14h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">Jobless</h5>
 							</div>
 						</div>
 					</div>
@@ -51,8 +51,8 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Abdul Joestar</a
-						>
+							>Jobless
+						</a>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
 						<div class="d-flex">
@@ -118,45 +118,45 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/arzen.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frzo</h4>
-										<p class="red">Heal</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/etsuuu.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Etsuuu</h4>
-										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nowkh.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>NOWKH</h4>
-										<p class="red">Tank</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Otev</h4>
+										<h4>Arzën</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/oxygen.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>FLAASHOU</h4>
+										<h4>Oxygen</h4>
+										<p class="red">Heal</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Jobless/paradioxe.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Parazigod</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Jobless/nbarcode.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>SOOOOOOOON</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Jobless/ryzer.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>CodryzerTTV</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
@@ -165,18 +165,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/ladji.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/mowgli.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Ladji</h4>
+										<h4>Møugli</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nemesys.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Némësys</h4>
+										<h4>XxBenjiGamerxX</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>

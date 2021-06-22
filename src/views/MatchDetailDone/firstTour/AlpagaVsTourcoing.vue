@@ -175,7 +175,7 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/frost.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Frost78</h4>
 										<p class="red">Sub</p>
@@ -388,11 +388,6 @@ section#map {
 		.map-games:last-child {
 			margin-left: 25.5px;
 		}
-	}
-}
-.map-games {
-	.position-absolute {
-		top: 60%;
 	}
 }
 @media screen and (max-width: 1230px) {

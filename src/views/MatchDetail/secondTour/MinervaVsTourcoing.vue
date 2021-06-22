@@ -67,7 +67,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Minerva/zikouz.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>zikouz</h4>
 										<p class="red">DPS</p>
@@ -165,7 +165,7 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Tourcoing/frost.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Frost78</h4>
 										<p class="red">Sub</p>

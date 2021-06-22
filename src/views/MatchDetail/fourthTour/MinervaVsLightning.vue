@@ -21,12 +21,12 @@
 							</div>
 						</div>
 						<div class="text-center schedule">
-							<p>19 juin samedi 14h00</p>
+							<p>26 juin samedi 14h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Adbul Joestar</h5>
+								<h5 class="text-right">Lightning</h5>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Abdul Joestar</a
+							>Lightning</a
 						>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
@@ -118,46 +118,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/fro.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/arcan.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frzo</h4>
-										<p class="red">Heal</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/etsuuu.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Etsuuu</h4>
-										<p class="red">Healeur</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nowkh.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>NOWKH</h4>
+										<h4>Arcan</h4>
 										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/otev.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/kurt.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Otev</h4>
+										<h4>Kurt135</h4>
+										<p class="red">Tank</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Lightning/zrp.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Zrp73</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/flashou.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/kurt.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>FLAASHOU</h4>
+										<h4>Major Blaze5151</h4>
 										<p class="red">DPS</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Lightning/lystale.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Lystale</h4>
+										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
@@ -165,18 +165,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/ladji.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/yasaina.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Ladji</h4>
+										<h4>Yasayna</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Abdul/nemesys.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/alarme.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Némësys</h4>
+										<h4>AlarmeColver</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>

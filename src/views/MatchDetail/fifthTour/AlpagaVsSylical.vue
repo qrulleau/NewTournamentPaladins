@@ -17,16 +17,16 @@
 					<div class="d-flex item-align-center">
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5>Tourcoing Eternal</h5>
+								<h5>Alpaga</h5>
 							</div>
 						</div>
 						<div class="text-center schedule">
-							<p>19 juin samedi 14h00</p>
+							<p>26 juin samedi 14h00</p>
 							<p class="grey">Best of 3</p>
 						</div>
 						<div class="d-flex item-align-center team">
 							<div class="description-team">
-								<h5 class="text-right">Lightning</h5>
+								<h5 class="text-right">Sylical</h5>
 							</div>
 						</div>
 					</div>
@@ -43,7 +43,7 @@
 								toggle();
 								[(CurrentTeam = 'FirstTeam')];
 							"
-							>Tourcoing Eternal</a
+							>Alpaga</a
 						>
 						<a
 							:class="!isActive ? 'active' : ''"
@@ -51,52 +51,52 @@
 								toggle();
 								[(CurrentTeam = 'SecondTeam')];
 							"
-							>Lightning</a
+							>Sylical</a
 						>
 					</div>
 					<section v-if="CurrentTeam === 'FirstTeam'">
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/dinopierre.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/snayz.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Dinopierre</h4>
+										<h4>Snaýz</h4>
 										<p class="red">Flex</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/lerazo.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/basicbot.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Lerazo</h4>
-										<p class="red">Flex</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/keema.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Keema</h4>
+										<h4>BasicBotPlayer</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/bang.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/nemesys.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>BANG</h4>
-										<p class="red">Heal</p>
+										<h4>Némësys</h4>
+										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/balhrog.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/eclat.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Balhrog</h4>
+										<h4>Eclaat</h4>
+										<p class="red">Flex</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/Alpaga/envel.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>envel8</h4>
 										<p class="red">Tank</p>
 									</div>
 								</div>
@@ -105,18 +105,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/vespalia.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Frost78</h4>
+										<h4>Vespalia</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Tourcoing/mouton.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Alpaga/saphir.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>MoutonPower</h4>
+										<h4>Sàphiir</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
@@ -127,46 +127,46 @@
 						<div class="d-flex">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/arcan.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/kurofs.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Arcan</h4>
+										<h4>KuroFS</h4>
+										<p class="red">Healeur</p>
+									</div>
+								</div>
+							</div>
+							<div class="player-profil">
+								<div class="position-relative">
+									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<div class="position-absolute">
+										<h4>Azorare</h4>
 										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/kurt.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/kosmic.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Kurt135</h4>
+										<h4>Kosmic</h4>
 										<p class="red">Tank</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/zrp.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/mowgli.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Zrp73</h4>
+										<h4>Møugli</h4>
 										<p class="red">DPS</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/kurt.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/aymeshin.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Major Blaze5151</h4>
+										<h4>Aymeshin</h4>
 										<p class="red">DPS</p>
-									</div>
-								</div>
-							</div>
-							<div class="player-profil">
-								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/lystale.jpg" alt="" />
-									<div class="position-absolute">
-										<h4>Lystale</h4>
-										<p class="red">Heal</p>
 									</div>
 								</div>
 							</div>
@@ -174,18 +174,18 @@
 						<div class="d-flex sub">
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/yasaina.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/kitara.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>Yasayna</h4>
+										<h4>kitaraaaa</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/alarme.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Sylical/saf.jpg" alt="" />
 									<div class="position-absolute">
-										<h4>AlarmeColver</h4>
+										<h4>BestKindredEU</h4>
 										<p class="red">Sub</p>
 									</div>
 								</div>
