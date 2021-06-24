@@ -4,21 +4,27 @@
 		<div class="d-flex head">
 			<div class="club">
 				<h4>Equipes</h4>
+				<h4 class="responsive">Equipes</h4>
 			</div>
 			<div class="bo-win">
 				<h4>BO gagné</h4>
+				<h4 class="responsive">BO G</h4>
 			</div>
 			<div class="game-played">
 				<h4>Matchs joués</h4>
+				<h4 class="responsive">MJ</h4>
 			</div>
 			<div class="game-lost">
 				<h4>Matchs Perdus</h4>
+				<h4 class="responsive">MP</h4>
 			</div>
 			<div class="game-win">
 				<h4>Matchs Gagnés</h4>
+				<h4 class="responsive">MG</h4>
 			</div>
 			<div class="point">
 				<h4>Points</h4>
+				<h4 class="responsive">Pts</h4>
 			</div>
 		</div>
 		<div class="body">
@@ -238,5 +244,23 @@ h3 {
 }
 .body {
 	margin-top: 31px;
+}
+@media screen and (max-width: 1330px) {
+	.card {
+		width: calc(100% - 30px);
+	}
+}
+@media screen and (min-width: 550px) {
+	h4.responsive {
+		display: none;
+	}
+}
+@media screen and (max-width: 550px) {
+	h4 {
+		display: none;
+		&.responsive {
+			display: block;
+		}
+	}
 }
 </style>
