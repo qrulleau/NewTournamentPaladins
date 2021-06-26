@@ -184,7 +184,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/inconnu.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Jobless/benji.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>XxBenjiGamerxX</h4>
 										<p class="red">Sub</p>

@@ -154,7 +154,7 @@
 							</div>
 							<div class="player-profil">
 								<div class="position-relative">
-									<img src="../../../assets/ProfilPlayer/Lightning/kurt.jpg" alt="" />
+									<img src="../../../assets/ProfilPlayer/Lightning/major.jpg" alt="" />
 									<div class="position-absolute">
 										<h4>Major Blaze5151</h4>
 										<p class="red">DPS</p>
