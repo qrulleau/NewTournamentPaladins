@@ -52,7 +52,7 @@
 					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Sylical" date="19 juin à 14h" link="minerva-vs-sylical" />
 					<AnnounceMatch class="mt-20" teamName="Tourcoing Eternal" teamName1="Lightning" date="19 juin à 14h" link="tourcoing-vs-lightning" />
 				</div>
-				<div class="test annonce" v-show="CurrentPage == 3">
+				<div class="annonce" v-show="CurrentPage == 3">
 					<h4>4eme Tour</h4>
 					<AnnounceMatch class="mt-20" teamName="Alpaga" teamName1="Abdul Joestar" date="26 juin à 14h" link="alpaga-vs-abdul" />
 					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Lightning" date="26 juin à 14h" link="minerva-vs-lightning" />
