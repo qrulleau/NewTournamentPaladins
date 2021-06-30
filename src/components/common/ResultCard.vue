@@ -33,13 +33,93 @@
 					<p>ABDUL JOESTAR</p>
 				</div>
 				<div class="bo-win">
-					<p>3</p>
+					<p>7</p>
 				</div>
 				<div class="game-played">
-					<p>6</p>
+					<p>14</p>
 				</div>
 				<div class="game-lost">
 					<p>0</p>
+				</div>
+				<div class="game-win">
+					<p>14</p>
+				</div>
+				<div class="point">
+					<p>14</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>JOBLESS</p>
+				</div>
+				<div class="bo-win">
+					<p>5</p>
+				</div>
+				<div class="game-played">
+					<p>15</p>
+				</div>
+				<div class="game-lost">
+					<p>4</p>
+				</div>
+				<div class="game-win">
+					<p>11</p>
+				</div>
+				<div class="point">
+					<p>11</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>ALPAGA</p>
+				</div>
+				<div class="bo-win">
+					<p>5</p>
+				</div>
+				<div class="game-played">
+					<p>15</p>
+				</div>
+				<div class="game-lost">
+					<p>5</p>
+				</div>
+				<div class="game-win">
+					<p>10</p>
+				</div>
+				<div class="point">
+					<p>10</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>TOURCOING ETERNALS</p>
+				</div>
+				<div class="bo-win">
+					<p>4</p>
+				</div>
+				<div class="game-played">
+					<p>14</p>
+				</div>
+				<div class="game-lost">
+					<p>6</p>
+				</div>
+				<div class="game-win">
+					<p>8</p>
+				</div>
+				<div class="point">
+					<p>8</p>
+				</div>
+			</div>
+			<div class="d-flex stats-game">
+				<div class="club">
+					<p>GPT E-SPORT</p>
+				</div>
+				<div class="bo-win">
+					<p>3</p>
+				</div>
+				<div class="game-played">
+					<p>14</p>
+				</div>
+				<div class="game-lost">
+					<p>8</p>
 				</div>
 				<div class="game-win">
 					<p>6</p>
@@ -50,22 +130,22 @@
 			</div>
 			<div class="d-flex stats-game">
 				<div class="club">
-					<p>ALPAGA</p>
+					<p>LIGHTNING</p>
 				</div>
 				<div class="bo-win">
-					<p>3</p>
+					<p>2</p>
 				</div>
 				<div class="game-played">
-					<p>6</p>
+					<p>14</p>
 				</div>
 				<div class="game-lost">
-					<p>0</p>
+					<p>10</p>
 				</div>
 				<div class="game-win">
-					<p>6</p>
+					<p>4</p>
 				</div>
 				<div class="point">
-					<p>6</p>
+					<p>4</p>
 				</div>
 			</div>
 			<div class="d-flex stats-game">
@@ -76,76 +156,16 @@
 					<p>2</p>
 				</div>
 				<div class="game-played">
-					<p>6</p>
+					<p>14</p>
 				</div>
 				<div class="game-lost">
-					<p>2</p>
+					<p>10</p>
 				</div>
 				<div class="game-win">
 					<p>4</p>
 				</div>
 				<div class="point">
 					<p>4</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>TOURCOING ETERNALS</p>
-				</div>
-				<div class="bo-win">
-					<p>2</p>
-				</div>
-				<div class="game-played">
-					<p>7</p>
-				</div>
-				<div class="game-lost">
-					<p>3</p>
-				</div>
-				<div class="game-win">
-					<p>4</p>
-				</div>
-				<div class="point">
-					<p>4</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>GPT E-SPORT</p>
-				</div>
-				<div class="bo-win">
-					<p>1</p>
-				</div>
-				<div class="game-played">
-					<p>6</p>
-				</div>
-				<div class="game-lost">
-					<p>4</p>
-				</div>
-				<div class="game-win">
-					<p>2</p>
-				</div>
-				<div class="point">
-					<p>2</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>JOBLESS</p>
-				</div>
-				<div class="bo-win">
-					<p>1</p>
-				</div>
-				<div class="game-played">
-					<p>6</p>
-				</div>
-				<div class="game-lost">
-					<p>4</p>
-				</div>
-				<div class="game-win">
-					<p>2</p>
-				</div>
-				<div class="point">
-					<p>2</p>
 				</div>
 			</div>
 			<div class="d-flex stats-game">
@@ -156,36 +176,16 @@
 					<p>0</p>
 				</div>
 				<div class="game-played">
-					<p>7</p>
+					<p>14</p>
 				</div>
 				<div class="game-lost">
-					<p>6</p>
+					<p>13</p>
 				</div>
 				<div class="game-win">
 					<p>1</p>
 				</div>
 				<div class="point">
 					<p>1</p>
-				</div>
-			</div>
-			<div class="d-flex stats-game">
-				<div class="club">
-					<p>LIGHTNING</p>
-				</div>
-				<div class="bo-win">
-					<p>0</p>
-				</div>
-				<div class="game-played">
-					<p>6</p>
-				</div>
-				<div class="game-lost">
-					<p>6</p>
-				</div>
-				<div class="game-win">
-					<p>0</p>
-				</div>
-				<div class="point">
-					<p>0</p>
 				</div>
 			</div>
 		</div>
