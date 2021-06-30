@@ -35,28 +35,28 @@ import Regulations from '../views/Regulations/Regulations.vue';
 // import TourcoingVsLightning from '../views/MatchDetail/thirdTour/TourcoingVsLightning.vue';
 
 //fourth round
-import AlpagaVsAbdul from '../views/MatchDetail/fourthTour/AlpagaVsAbdul.vue';
-import JoblessVsSylical from '../views/MatchDetail/fourthTour/SylicalVsJobless.vue';
-import MinervaVsLightning from '../views/MatchDetail/fourthTour/MinervaVsLightning.vue';
-import TourcoingVsGpt from '../views/MatchDetail/fourthTour/TourcoingVsGpt.vue';
+// import AlpagaVsAbdul from '../views/MatchDetail/fourthTour/AlpagaVsAbdul.vue';
+// import JoblessVsSylical from '../views/MatchDetail/fourthTour/SylicalVsJobless.vue';
+// import MinervaVsLightning from '../views/MatchDetail/fourthTour/MinervaVsLightning.vue';
+// import TourcoingVsGpt from '../views/MatchDetail/fourthTour/TourcoingVsGpt.vue';
 
-// fifth round
-import AlpagaVsSylical from '../views/MatchDetail/fifthTour/AlpagaVsSylical.vue';
-import LightningVsGpt from '../views/MatchDetail/fifthTour/LightningVsGpt.vue';
-import MinervaVsJobless from '../views/MatchDetail/fifthTour/MinervaVsJobless.vue';
-import TourcoingVsAbdul from '../views/MatchDetail/fifthTour/TourcoingVsAbdul.vue';
+// // fifth round
+// import AlpagaVsSylical from '../views/MatchDetail/fifthTour/AlpagaVsSylical.vue';
+// import LightningVsGpt from '../views/MatchDetail/fifthTour/LightningVsGpt.vue';
+// import MinervaVsJobless from '../views/MatchDetail/fifthTour/MinervaVsJobless.vue';
+// import TourcoingVsAbdul from '../views/MatchDetail/fifthTour/TourcoingVsAbdul.vue';
 
-// sixth round
-import JoblessVsAlpaga from '../views/MatchDetail/sixthTour/JoblessVsAlpaga.vue';
-import LightningVsAbdul from '../views/MatchDetail/sixthTour/LightningVsAbdul.vue';
-import MinervaVsGpt from '../views/MatchDetail/sixthTour/MinervaVsGpt.vue';
-import SylicalVsTourcoing from '../views/MatchDetail/sixthTour/SylicalVsTourcoing.vue';
+// // sixth round
+// import JoblessVsAlpaga from '../views/MatchDetail/sixthTour/JoblessVsAlpaga.vue';
+// import LightningVsAbdul from '../views/MatchDetail/sixthTour/LightningVsAbdul.vue';
+// import MinervaVsGpt from '../views/MatchDetail/sixthTour/MinervaVsGpt.vue';
+// import SylicalVsTourcoing from '../views/MatchDetail/sixthTour/SylicalVsTourcoing.vue';
 
-// seventh round
-import GptVsAbdul from '../views/MatchDetail/seventhTour/GptVsAbdul.vue';
-import SylicalVsLightning from '../views/MatchDetail/seventhTour/SylicalVsLightning.vue';
-import MinervaVsAlpaga from '../views/MatchDetail/seventhTour/MinervaVsAlpaga.vue';
-import TourcoingVsJobless from '../views/MatchDetail/seventhTour/TourcoingVsJobless.vue';
+// // seventh round
+// import GptVsAbdul from '../views/MatchDetail/seventhTour/GptVsAbdul.vue';
+// import SylicalVsLightning from '../views/MatchDetail/seventhTour/SylicalVsLightning.vue';
+// import MinervaVsAlpaga from '../views/MatchDetail/seventhTour/MinervaVsAlpaga.vue';
+// import TourcoingVsJobless from '../views/MatchDetail/seventhTour/TourcoingVsJobless.vue';
 
 //match finis
 //first round
@@ -71,11 +71,35 @@ import JoblessVsGptDone from '../views/MatchDetailDone/secondTour/JoblessVsGpt.v
 import MinervaVsTourcoingDone from '../views/MatchDetailDone/secondTour/MinervaVsTourcoing.vue';
 import SylicalVSAbdulDone from '../views/MatchDetailDone/secondTour/SylicalVsAbdul.vue';
 
-// //third round
+// third round
 import AlpagaVsGptDone from '../views/MatchDetailDone/thirdTour/AlpagaVsGpt.vue';
 import JoblessVsAbdulDone from '../views/MatchDetailDone/thirdTour/JoblessVsAbdul.vue';
 import MinervaVsSylicalDone from '../views/MatchDetailDone/thirdTour/MinervaVsSylical.vue';
 import TourcoingVsLightningDone from '../views/MatchDetailDone/thirdTour/TourcoingVsLightning.vue';
+
+//fourth round
+import AlpagaVsAbdulDone from '../views/MatchDetailDone/fourthTour/AlpagaVsAbdul.vue';
+import JoblessVsSylicalDone from '../views/MatchDetailDone/fourthTour/SylicalVsJobless.vue';
+import MinervaVsLightningDone from '../views/MatchDetailDone/fourthTour/MinervaVsLightning.vue';
+import TourcoingVsGptDone from '../views/MatchDetailDone/fourthTour/TourcoingVsGpt.vue';
+
+//fifth round
+import AlpagaVsSylicalDone from '../views/MatchDetailDone/fifthTour/AlpagaVsSylical.vue';
+import LightningVsGptDone from '../views/MatchDetailDone/fifthTour/LightningVsGpt.vue';
+import MinervaVsJoblessDone from '../views/MatchDetailDone/fifthTour/MinervaVsJobless.vue';
+import TourcoingVsAbdulDone from '../views/MatchDetailDone/fifthTour/TourcoingVsAbdul.vue';
+
+// sixth round
+import JoblessVsAlpagaDone from '../views/MatchDetailDone/sixthTour/JoblessVsAlpaga.vue';
+import LightningVsAbdulDone from '../views/MatchDetailDone/sixthTour/LightningVsAbdul.vue';
+import MinervaVsGptDone from '../views/MatchDetailDone/sixthTour/MinervaVsGpt.vue';
+import SylicalVsTourcoingDone from '../views/MatchDetailDone/sixthTour/SylicalVsTourcoing.vue';
+
+// seventh round
+import GptVsAbdulDone from '../views/MatchDetailDone/seventhTour/GptVsAbdul.vue';
+import SylicalVsLightningDone from '../views/MatchDetailDone/seventhTour/SylicalVsLightning.vue';
+import MinervaVsAlpagaDone from '../views/MatchDetailDone/seventhTour/MinervaVsAlpaga.vue';
+import TourcoingVsJoblessDone from '../views/MatchDetailDone/seventhTour/TourcoingVsJobless.vue';
 
 const routes = [
 	{
@@ -101,67 +125,67 @@ const routes = [
 	},
 	{
 		path: '/alpaga-vs-abdul',
-		component: AlpagaVsAbdul,
+		component: AlpagaVsAbdulDone,
 	},
 	{
 		path: '/jobless-vs-sylical',
-		component: JoblessVsSylical,
+		component: JoblessVsSylicalDone,
 	},
 	{
 		path: '/minerva-vs-lightning',
-		component: MinervaVsLightning,
+		component: MinervaVsLightningDone,
 	},
 	{
 		path: '/tourcoing-vs-gpt',
-		component: TourcoingVsGpt,
+		component: TourcoingVsGptDone,
 	},
 	{
 		path: '/alpaga-vs-sylical',
-		component: AlpagaVsSylical,
+		component: AlpagaVsSylicalDone,
 	},
 	{
 		path: '/lightning-vs-gpt',
-		component: LightningVsGpt,
+		component: LightningVsGptDone,
 	},
 	{
 		path: '/minerva-vs-jobless',
-		component: MinervaVsJobless,
+		component: MinervaVsJoblessDone,
 	},
 	{
 		path: '/tourcoing-vs-abdul',
-		component: TourcoingVsAbdul,
+		component: TourcoingVsAbdulDone,
 	},
 	{
 		path: '/jobless-vs-alpaga',
-		component: JoblessVsAlpaga,
+		component: JoblessVsAlpagaDone,
 	},
 	{
 		path: '/lightning-vs-abdul',
-		component: LightningVsAbdul,
+		component: LightningVsAbdulDone,
 	},
 	{
 		path: '/minerva-vs-gpt',
-		component: MinervaVsGpt,
+		component: MinervaVsGptDone,
 	},
 	{
 		path: '/sylical-vs-tourcoing',
-		component: SylicalVsTourcoing,
+		component: SylicalVsTourcoingDone,
 	},
 	{
 		path: '/gpt-vs-abdul',
-		component: GptVsAbdul,
+		component: GptVsAbdulDone,
 	},
 	{
 		path: '/sylical-vs-lightning',
-		component: SylicalVsLightning,
+		component: SylicalVsLightningDone,
 	},
 	{
 		path: '/minerva-vs-alpaga',
-		component: MinervaVsAlpaga,
+		component: MinervaVsAlpagaDone,
 	},
 	{
 		path: '/tourcoing-vs-jobless',
-		component: TourcoingVsJobless,
+		component: TourcoingVsJoblessDone,
 	},
 	{
 		path: '/sylical-vs-gpt',
