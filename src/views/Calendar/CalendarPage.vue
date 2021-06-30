@@ -21,42 +21,15 @@
 					>DERNIERs RÉSULTATS</a
 				>
 			</div>
+			<!-- 
 			<section v-if="CurrentMatch === 'ComingMatch'" class="CurrentMatch">
-				<div class="test annonce" v-show="CurrentPage == 0">
-					<h4>4eme Tour</h4>
-					<AnnounceMatch class="mt-20" teamName="Alpaga" teamName1="Abdul Joestar" date="26 juin à 14h" link="alpaga-vs-abdul" />
-					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Lightning" date="26 juin à 14h" link="minerva-vs-lightning" />
-					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Jobless" date="26 juin à 14h" link="jobless-vs-sylical" />
-					<AnnounceMatch class="mt-20" teamName="Tourcoing" teamName1="GPT E-SPORT" date="26 juin à 14h" link="tourcoing-vs-gpt" />
-				</div>
-				<div class="annonce" v-show="CurrentPage == 1">
-					<h4>5eme Tour</h4>
-					<AnnounceMatch class="mt-20" teamName="Alpaga" teamName1="Sylical" date="26 juin à 14h" link="alpaga-vs-Sylical" />
-					<AnnounceMatch class="mt-20" teamName="Lightning" teamName1="GPT E-SPORT" date="26 juin à 14h" link="lightning-vs-gpt" />
-					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Jobless" date="26 juin à 14h" link="minerva-vs-jobless" />
-					<AnnounceMatch class="mt-20" teamName="Tourcoing" teamName1="Abdul Joestar" date="26 juin à 14h" link="tourcoing-vs-abdul" />
-				</div>
-				<div class="annonce" v-show="CurrentPage == 2">
-					<h4>6eme Tour</h4>
-					<AnnounceMatch class="mt-20" teamName="Jobless" teamName1="Alpaga" date="27 juin à 14h" link="jobless-vs-alpaga" />
-					<AnnounceMatch class="mt-20" teamName="lightning" teamName1="Abdul Joestar" date="27 juin à 14h" link="lightning-vs-abdul" />
-					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="GPT E-SPORT" date="27 juin à 14h" link="minerva-vs-gpt" />
-					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Tourcoing" date="27 juin à 14h" link="sylical-vs-tourcoing" />
-				</div>
-				<div class="annonce" v-show="CurrentPage == 3">
-					<h4>7eme Tour</h4>
-					<AnnounceMatch class="mt-20" teamName="GPT E-sport" teamName1="Abdul Joestar" date="27 juin à 14h" link="gpt-vs-abdul" />
-					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Alpaga" date="27 juin à 14h" link="minerva-vs-alpaga" />
-					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Lightning" date="27 juin à 14h" link="sylical-vs-lightning" />
-					<AnnounceMatch class="mt-20" teamName="Tourcoing Eternal" teamName1="Jobless" date="27 juin à 14h" link="tourcoing-vs-jobless" />
-				</div>
 				<section class="pagination">
 					<div class="d-flex">
 						<a @click="down()"><i class="fas fa-chevron-left"></i></a>
 						<a @click="up()"><i class="fas fa-chevron-right"></i></a>
 					</div>
-				</section>
-			</section>
+				</section> 
+			</section>-->
 			<section v-if="CurrentMatch === 'LastResult'" class="CurrentMatch">
 				<div class="test annonce" v-show="CurrentPage == 0">
 					<h4>1er Tour</h4>
@@ -78,6 +51,34 @@
 					<AnnounceMatch class="mt-20" teamName="Jobless" teamName1="Abdul Joestar" date="19 juin à 14h" link="jobless-vs-abdul" />
 					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Sylical" date="19 juin à 14h" link="minerva-vs-sylical" />
 					<AnnounceMatch class="mt-20" teamName="Tourcoing Eternal" teamName1="Lightning" date="19 juin à 14h" link="tourcoing-vs-lightning" />
+				</div>
+				<div class="test annonce" v-show="CurrentPage == 3">
+					<h4>4eme Tour</h4>
+					<AnnounceMatch class="mt-20" teamName="Alpaga" teamName1="Abdul Joestar" date="26 juin à 14h" link="alpaga-vs-abdul" />
+					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Lightning" date="26 juin à 14h" link="minerva-vs-lightning" />
+					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Jobless" date="26 juin à 14h" link="jobless-vs-sylical" />
+					<AnnounceMatch class="mt-20" teamName="Tourcoing" teamName1="GPT E-SPORT" date="26 juin à 14h" link="tourcoing-vs-gpt" />
+				</div>
+				<div class="annonce" v-show="CurrentPage == 4">
+					<h4>5eme Tour</h4>
+					<AnnounceMatch class="mt-20" teamName="Alpaga" teamName1="Sylical" date="26 juin à 14h" link="alpaga-vs-Sylical" />
+					<AnnounceMatch class="mt-20" teamName="Lightning" teamName1="GPT E-SPORT" date="26 juin à 14h" link="lightning-vs-gpt" />
+					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Jobless" date="26 juin à 14h" link="minerva-vs-jobless" />
+					<AnnounceMatch class="mt-20" teamName="Tourcoing" teamName1="Abdul Joestar" date="26 juin à 14h" link="tourcoing-vs-abdul" />
+				</div>
+				<div class="annonce" v-show="CurrentPage == 5">
+					<h4>6eme Tour</h4>
+					<AnnounceMatch class="mt-20" teamName="Jobless" teamName1="Alpaga" date="27 juin à 14h" link="jobless-vs-alpaga" />
+					<AnnounceMatch class="mt-20" teamName="lightning" teamName1="Abdul Joestar" date="27 juin à 14h" link="lightning-vs-abdul" />
+					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="GPT E-SPORT" date="27 juin à 14h" link="minerva-vs-gpt" />
+					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Tourcoing" date="27 juin à 14h" link="sylical-vs-tourcoing" />
+				</div>
+				<div class="annonce" v-show="CurrentPage == 6">
+					<h4>7eme Tour</h4>
+					<AnnounceMatch class="mt-20" teamName="GPT E-sport" teamName1="Abdul Joestar" date="27 juin à 14h" link="gpt-vs-abdul" />
+					<AnnounceMatch class="mt-20" teamName="Minerva" teamName1="Alpaga" date="27 juin à 14h" link="minerva-vs-alpaga" />
+					<AnnounceMatch class="mt-20" teamName="Sylical" teamName1="Lightning" date="27 juin à 14h" link="sylical-vs-lightning" />
+					<AnnounceMatch class="mt-20" teamName="Tourcoing Eternal" teamName1="Jobless" date="27 juin à 14h" link="tourcoing-vs-jobless" />
 				</div>
 				<section class="pagination">
 					<div class="d-flex">
@@ -126,7 +127,7 @@ export default {
 			currentDiv[this.CurrentPage].classList.add('test');
 		},
 		upbis() {
-			if (this.CurrentPage === 2) {
+			if (this.CurrentPage === 6) {
 				return;
 			}
 			let currentDiv = document.querySelectorAll('.annonce');
