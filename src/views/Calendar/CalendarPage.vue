@@ -29,7 +29,7 @@
 				</div>
 				<div class="annonce" v-show="CurrentPage == 1">
 					<h4>Final</h4>
-					<AnnounceMatch class="mt-20" teamName="winner demi final" teamName1="winner demi final" date="3 juillet à 16h" link="alpaga-vs-lightning" />
+					<AnnounceMatch class="mt-20" teamName="winner demi final" teamName1="winner demi final" date="3 juillet à 16h" link="" />
 				</div>
 				<section class="pagination">
 					<div class="d-flex">
