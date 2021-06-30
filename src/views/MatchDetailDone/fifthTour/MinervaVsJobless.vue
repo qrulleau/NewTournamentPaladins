@@ -32,6 +32,7 @@
 					</div>
 					<div class="text-center result">
 						<p class="orange">Résultat Final</p>
+						<p class="score">0 - 2 <br /><span>( Forfait )</span></p>
 					</div>
 				</div>
 				<section id="team">
