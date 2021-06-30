@@ -16,47 +16,9 @@ import Regulations from '../views/Regulations/Regulations.vue';
 //liste des matchs
 
 // match en cours
-// first round
-// import SylicalVSGPT from '../views/MatchDetail/firstTour/SylicalVsGpt.vue';
-// import MinervaVSAbdul from '../views/MatchDetail/firstTour/MinervaVsAbdul.vue';
-// import JoblessVsLightning from '../views/MatchDetail/firstTour/JoblessVsLightning.vue';
-// import AlpagaVsTourcoing from '../views/MatchDetail/firstTour/AlpagaVsTourcoing.vue';
-
-// second round
-// import SylicalVSAbdul from '../views/MatchDetail/secondTour/SylicalVsAbdul.vue';
-// import MinervaVSTourcoing from '../views/MatchDetail/secondTour/MinervaVsTourcoing.vue';
-// import JoblessVsGPT from '../views/MatchDetail/secondTour/JoblessVsGpt.vue';
-// import AlpagaVsLightning from '../views/MatchDetail/secondTour/AlpagaVsLightning.vue';
-
-// third round
-// import AlpagaVsGpt from '../views/MatchDetail/thirdTour/AlpagaVsGpt.vue';
-// import JoblessVsAbdul from '../views/MatchDetail/thirdTour/JoblessVsAbdul.vue';
-// import MinervaVsSylical from '../views/MatchDetail/thirdTour/MinervaVsSylical.vue';
-// import TourcoingVsLightning from '../views/MatchDetail/thirdTour/TourcoingVsLightning.vue';
-
-//fourth round
-// import AlpagaVsAbdul from '../views/MatchDetail/fourthTour/AlpagaVsAbdul.vue';
-// import JoblessVsSylical from '../views/MatchDetail/fourthTour/SylicalVsJobless.vue';
-// import MinervaVsLightning from '../views/MatchDetail/fourthTour/MinervaVsLightning.vue';
-// import TourcoingVsGpt from '../views/MatchDetail/fourthTour/TourcoingVsGpt.vue';
-
-// // fifth round
-// import AlpagaVsSylical from '../views/MatchDetail/fifthTour/AlpagaVsSylical.vue';
-// import LightningVsGpt from '../views/MatchDetail/fifthTour/LightningVsGpt.vue';
-// import MinervaVsJobless from '../views/MatchDetail/fifthTour/MinervaVsJobless.vue';
-// import TourcoingVsAbdul from '../views/MatchDetail/fifthTour/TourcoingVsAbdul.vue';
-
-// // sixth round
-// import JoblessVsAlpaga from '../views/MatchDetail/sixthTour/JoblessVsAlpaga.vue';
-// import LightningVsAbdul from '../views/MatchDetail/sixthTour/LightningVsAbdul.vue';
-// import MinervaVsGpt from '../views/MatchDetail/sixthTour/MinervaVsGpt.vue';
-// import SylicalVsTourcoing from '../views/MatchDetail/sixthTour/SylicalVsTourcoing.vue';
-
-// // seventh round
-// import GptVsAbdul from '../views/MatchDetail/seventhTour/GptVsAbdul.vue';
-// import SylicalVsLightning from '../views/MatchDetail/seventhTour/SylicalVsLightning.vue';
-// import MinervaVsAlpaga from '../views/MatchDetail/seventhTour/MinervaVsAlpaga.vue';
-// import TourcoingVsJobless from '../views/MatchDetail/seventhTour/TourcoingVsJobless.vue';
+//semifinal
+import SemiFinal from '../views/MatchDetail/semiFinal/JoblessVsAlpaga.vue';
+import SemiFinalBis from '../views/MatchDetail/semiFinal/TourcoingVsAbdul.vue';
 
 //match finis
 //first round
@@ -122,6 +84,14 @@ const routes = [
 	{
 		path: '/contact',
 		component: ContactPage,
+	},
+	{
+		path: '/first-semi-final',
+		component: SemiFinal,
+	},
+	{
+		path: '/second-semi-final',
+		component: SemiFinalBis,
 	},
 	{
 		path: '/alpaga-vs-abdul',

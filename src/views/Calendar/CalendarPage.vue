@@ -21,15 +21,23 @@
 					>DERNIERs RÉSULTATS</a
 				>
 			</div>
-			<!-- 
 			<section v-if="CurrentMatch === 'ComingMatch'" class="CurrentMatch">
+				<div class="test annonce" v-show="CurrentPage == 0">
+					<h4>Demi Final</h4>
+					<AnnounceMatch class="mt-20" teamName="Abdul Joestar" teamName1="Tourcoing Eternal" date="3 juillet à 14h" link="second-semi-final" />
+					<AnnounceMatch class="mt-20" teamName="Jobless" teamName1="Alpaga" date="3 juillet à 15h" link="first-semi-final" />
+				</div>
+				<div class="annonce" v-show="CurrentPage == 1">
+					<h4>Final</h4>
+					<AnnounceMatch class="mt-20" teamName="winner demi final" teamName1="winner demi final" date="3 juillet à 16h" link="alpaga-vs-lightning" />
+				</div>
 				<section class="pagination">
 					<div class="d-flex">
 						<a @click="down()"><i class="fas fa-chevron-left"></i></a>
 						<a @click="up()"><i class="fas fa-chevron-right"></i></a>
 					</div>
-				</section> 
-			</section>-->
+				</section>
+			</section>
 			<section v-if="CurrentMatch === 'LastResult'" class="CurrentMatch">
 				<div class="test annonce" v-show="CurrentPage == 0">
 					<h4>1er Tour</h4>
@@ -116,7 +124,7 @@ export default {
 			this.isActive = !this.isActive;
 		},
 		up() {
-			if (this.CurrentPage === 3) {
+			if (this.CurrentPage === 1) {
 				return;
 			}
 			let currentDiv = document.querySelectorAll('.annonce');
